@@ -32,3 +32,8 @@ NA
 Visualization does not get in the way of the core value proposition-providing a recipe
 Needs to show traffic/activity when it comes to the less traveled branches
 
+
+#### Ted's Notes
+* Future possibilities: (just to keep track of ideas)
+  * We could possibly provide ways to have users buy ingredients directly from stores, local farms, etc. if interested or hard to find.
+  * Provide ability to see history of recipes (maybe add comparison feature to compare variations so can mix and match recipes easier visually?)
