@@ -5,7 +5,7 @@ A brief overview of the opportunity and need for the "github for food recipes" i
 ## What problem does this solve? (Value Prop)
 * Cooks want to be able to get ideas of how they can tweak an existing recipe. What are easy substitutes (given constraints due to dietary, seasonal food, or even what's in the fridge)?
 * Cooks want to be able to record different experiments to see if it worked. Where can I save different experiments to access in the future?
-* Cooks want some validation when it comes to a new dish. There isn't just one recipe for a dish, there are thousands. How does one compare one receipe from another? 
+* Cooks want some validation when it comes to a new dish. There isn't just one recipe for a dish, there are thousands. How does one compare one receipe from another? [Illustration](https://github.com/huangv22/gitHubGrub/blob/master/SelectingRecipe.png)
 
 ## For whom do we solve that problem (Target User)
 * Amateur Cook: Help them get started on a recipe that is crowdsourced. Help 
