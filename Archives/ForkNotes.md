@@ -5,9 +5,9 @@ Forkit meeting notes
 Location: Gaslamp Cafe
 
 ### To Do
-[] Draft survey (Vince)
-[] Ask around peers (Vince + Ted)
-[] Create User Journey 
+O Draft survey (Vince)
+O Ask around peers (Vince + Ted)
+O Create User Journey 
 
 ### Decisions Made:
 * Probable beachhead to start further down the funnel somewhere around (2) Inspiration /(3) Recording experiments
