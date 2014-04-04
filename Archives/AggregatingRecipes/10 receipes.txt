@@ -1,0 +1,21 @@
+# 10 Recipes
+
+## Question: 
+Is there a way to leverage the wisdom of the crowds in sourcing thousands of recipe versions of the same dish to create an holistic picture?
+
+## A micro-Test
+Reviewed the results of 10 recipes for "fried chicken"
+
+## Qualitative Findings
+Instantly realized that fried chicken is too broad. Made adjustments midcourse to over fried. Data still in tact to stimulate the real world data inconsistency
+
+## Sample Results
+* 10 receipes
+  * 4 fried chicken
+  * 6 oven fried
+* Salt/Pepper: 100%
+* Flour:  80% of all receipes
+* Paprika: 60%
+* Buttermilk  (40%)
+	* 25% in Fried chicken
+	* 50% in Oven Fried
