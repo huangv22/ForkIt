@@ -1,13 +1,38 @@
 # Meeting Notes 
 Forkit meeting notes
 
+## 4/17/2014
+Location: Gaslamp Cafe
+Length: 1 Hour
+Scribe: Vince
+
+### To Do
+* Rough sketch of what the interface will look like (VH + TL)
+* Wireframes
+* Requirements
+
+### Notes
+* Weekly meetings via call. Physical meeting once every two weeks
+* Ted reached out to a few friends and received feedback. 
+	* Some people used spreadsheets
+	* Others used analog
+	* People are in pursuit of the *perfect* dish
+* Vince shared feedback around Jacky
+* Feature Idea: 
+	* Bookmarklet (HT: Sonja)
+* Product Idea:
+	* Start with the assumption that the user has already found a recipe.
+
+
+### To Do
+
 ## 4/3/2014
 Location: Gaslamp Cafe
 
 ### To Do
-* Draft survey (Vince)
-* Ask around peers (Vince + Ted)
-* Create User Journey 
+~~* Draft survey (Vince)~~
+~~* Ask around peers (Vince + Ted)~~
+~~* Create User Journey ~~
 
 ### Decisions Made:
 * Probable beachhead to start further down the funnel somewhere around (2) Inspiration /(3) Recording experiments
