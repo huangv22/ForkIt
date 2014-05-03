@@ -1,0 +1,6559 @@
+@charset "UTF-8";
+
+//
+// Webfonts for use on production (designer fonts are not listed here)
+// Fonts are loaded from CDN (Rackspace Cloud/Akami)
+// --------------------------------------------------
+
+// Load Promixa Nova (@sansFontFamily as of 5/1/13)
+
+@font-face {
+  font-family: "Proxima Nova Light Italic";
+  src: url("fonts/ProximaNova/ProximaNova-Light-webfont.eot");
+  src: url("fonts/ProximaNova/ProximaNova-Light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/ProximaNova/ProximaNova-Light-webfont.woff") format("woff"), url("fonts/ProximaNova/ProximaNova-Light-webfont.ttf") format("truetype"), url("fonts/ProximaNova/ProximaNova-Light-webfont.svg#ProximaNova300Regular") format("svg");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("fonts/proximanova-300-webfont.eot");
+  src: url("fonts/proximanova-300-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-300-webfont.woff") format("woff"), url("fonts/proximanova-300-webfont.ttf") format("truetype"), url("fonts/proximanova-300-webfont.svg#ProximaNova300Regular") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Italic";
+  src: url("fonts/proximanova-300italic-webfont.eot");
+  src: url("fonts/proximanova-300italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-300italic-webfont.woff") format("woff"), url("fonts/proximanova-300italic-webfont.ttf") format("truetype"), url("fonts/proximanova-300italic-webfont.svg#ProximaNova300Italic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: "Proxima Nova Semibold";
+  src: url("fonts/proximanova-500-webfont.eot");
+  src: url("fonts/proximanova-500-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-500-webfont.woff") format("woff"), url("fonts/proximanova-500-webfont.ttf") format("truetype"), url("fonts/proximanova-500-webfont.svg#ProximaNova500Regular") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Proxima Nova Semibold Italic";
+  src: url("fonts/ProximaNova/ProximaNova-Sbold-webfont.eot");
+  src: url("fonts/ProximaNova/ProximaNova-Sbold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/ProximaNova/ProximaNova-Sbold-webfont.woff") format("woff"), url("fonts/ProximaNova/ProximaNova-Sbold-webfont.ttf") format("truetype"), url("fonts/ProximaNova/ProximaNova-Sbold-webfont.svg#ProximaNova500Italic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("fonts/proximanova-700-webfont.eot");
+  src: url("fonts/proximanova-700-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-700-webfont.woff") format("woff"), url("fonts/proximanova-700-webfont.ttf") format("truetype"), url("fonts/proximanova-700-webfont.svg#ProximaNova700Regular") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Proxima Nova Bold Italic";
+  src: url("fonts/proximanova-700italic-webfont.eot");
+  src: url("fonts/proximanova-700italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-700italic-webfont.woff") format("woff"), url("fonts/proximanova-700italic-webfont.ttf") format("truetype"), url("fonts/proximanova-700italic-webfont.svg#ProximaNova700Italic") format("svg");
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: "Proxima Nova ExtraBold";
+  src: url("fonts/ProximaNova/ProximaNova-Xbold-webfont");
+  src: url("fonts/ProximaNova/ProximaNova-Xbold-webfont?#iefix") format("embedded-opentype"), url("fonts/ProximaNova/ProximaNova-Xbold-webfont") format("woff"), url("fonts/ProximaNova/ProximaNova-Xbold-webfont") format("truetype"), url("fonts/ProximaNova/ProximaNova-Xbold-webfont#ProximaNova700Regular") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Proxima Nova ExtraBold Italic";
+  src: url("fonts/proximanova-700italic-webfont.eot");
+  src: url("fonts/proximanova-700italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-700italic-webfont.woff") format("woff"), url("fonts/proximanova-700italic-webfont.ttf") format("truetype"), url("fonts/proximanova-700italic-webfont.svg#ProximaNova700Italic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+}
+
+// Adelle Font Family
+
+@font-face {
+  font-family: "adellebold";
+  src: url("fonts/Adelle/typetogether_-_adelle-bold-webfont.eot");
+  src: url("fonts/Adelle/typetogether_-_adelle-bold-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Adelle/typetogether_-_adelle-bold-webfont.woff") format("woff"),
+       url("fonts/Adelle/typetogether_-_adelle-bold-webfont.ttf") format("truetype"),
+       url("fonts/Adelle/typetogether_-_adelle-bold-webfont.svg#adellebold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "adellebold_italic";
+  src: url("fonts/Adelle/typetogether_-_adelle-bolditalic-webfont.eot");
+  src: url("fonts/Adelle/typetogether_-_adelle-bolditalic-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Adelle/typetogether_-_adelle-bolditalic-webfont.woff") format("woff"),
+       url("fonts/Adelle/typetogether_-_adelle-bolditalic-webfont.ttf") format("truetype"),
+       url("fonts/Adelle/typetogether_-_adelle-bolditalic-webfont.svg#adellebold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "adelleextrabold";
+  src: url("fonts/Adelle/typetogether_-_adelle-extrabold-webfont.eot");
+  src: url("fonts/Adelle/typetogether_-_adelle-extrabold-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Adelle/typetogether_-_adelle-extrabold-webfont.woff") format("woff"),
+       url("fonts/Adelle/typetogether_-_adelle-extrabold-webfont.ttf") format("truetype"),
+       url("fonts/Adelle/typetogether_-_adelle-extrabold-webfont.svg#adelleextrabold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "adelleextrabold_italic";
+  src: url("fonts/Adelle/typetogether_-_adelle-extrabolditalic-webfont.eot");
+  src: url("fonts/Adelle/typetogether_-_adelle-extrabolditalic-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Adelle/typetogether_-_adelle-extrabolditalic-webfont.woff") format("woff"),
+       url("fonts/Adelle/typetogether_-_adelle-extrabolditalic-webfont.ttf") format("truetype"),
+       url("fonts/Adelle/typetogether_-_adelle-extrabolditalic-webfont.svg#adelleextrabold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "adelleheavy";
+  src: url("fonts/Adelle/typetogether_-_adelle-heavy-webfont.eot");
+  src: url("fonts/Adelle/typetogether_-_adelle-heavy-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Adelle/typetogether_-_adelle-heavy-webfont.woff") format("woff"),
+       url("fonts/Adelle/typetogether_-_adelle-heavy-webfont.ttf") format("truetype"),
+       url("fonts/Adelle/typetogether_-_adelle-heavy-webfont.svg#adelleheavy") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "adelleheavy_italic";
+  src: url("fonts/Adelle/typetogether_-_adelle-heavyitalic-webfont.eot");
+  src: url("fonts/Adelle/typetogether_-_adelle-heavyitalic-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Adelle/typetogether_-_adelle-heavyitalic-webfont.woff") format("woff"),
+       url("fonts/Adelle/typetogether_-_adelle-heavyitalic-webfont.ttf") format("truetype"),
+       url("fonts/Adelle/typetogether_-_adelle-heavyitalic-webfont.svg#adelleheavy_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "adelleitalic";
+  src: url("fonts/Adelle/typetogether_-_adelle-italic-webfont.eot");
+  src: url("fonts/Adelle/typetogether_-_adelle-italic-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Adelle/typetogether_-_adelle-italic-webfont.woff") format("woff"),
+       url("fonts/Adelle/typetogether_-_adelle-italic-webfont.ttf") format("truetype"),
+       url("fonts/Adelle/typetogether_-_adelle-italic-webfont.svg#adelleitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "adellelight";
+  src: url("fonts/Adelle/typetogether_-_adelle-light-webfont.eot");
+  src: url("fonts/Adelle/typetogether_-_adelle-light-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Adelle/typetogether_-_adelle-light-webfont.woff") format("woff"),
+       url("fonts/Adelle/typetogether_-_adelle-light-webfont.ttf") format("truetype"),
+       url("fonts/Adelle/typetogether_-_adelle-light-webfont.svg#adellelight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "adellelight_italic";
+  src: url("fonts/Adelle/typetogether_-_adelle-lightitalic-webfont.eot");
+  src: url("fonts/Adelle/typetogether_-_adelle-lightitalic-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Adelle/typetogether_-_adelle-lightitalic-webfont.woff") format("woff"),
+       url("fonts/Adelle/typetogether_-_adelle-lightitalic-webfont.ttf") format("truetype"),
+       url("fonts/Adelle/typetogether_-_adelle-lightitalic-webfont.svg#adellelight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// OpenSans Font Family
+
+@font-face {
+  font-family: "open_sansbold";
+  src: url("fonts/OpenSans/opensans-bold-webfont.eot");
+  src: url("fonts/OpenSans/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/OpenSans/opensans-bold-webfont.woff") format("woff"),
+       url("fonts/OpenSans/opensans-bold-webfont.ttf") format("truetype"),
+       url("fonts/OpenSans/opensans-bold-webfont.svg#open_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sansbold_italic";
+  src: url("fonts/OpenSans/opensans-bolditalic-webfont.eot");
+  src: url("fonts/OpenSans/opensans-bolditalic-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/OpenSans/opensans-bolditalic-webfont.woff") format("woff"),
+       url("fonts/OpenSans/opensans-bolditalic-webfont.ttf") format("truetype"),
+       url("fonts/OpenSans/opensans-bolditalic-webfont.svg#open_sansbold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sansextrabold";
+  src: url("fonts/OpenSans/opensans-extrabold-webfont.eot");
+  src: url("fonts/OpenSans/opensans-extrabold-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/OpenSans/opensans-extrabold-webfont.woff") format("woff"),
+       url("fonts/OpenSans/opensans-extrabold-webfont.ttf") format("truetype"),
+       url("fonts/OpenSans/opensans-extrabold-webfont.svg#open_sansextrabold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sansextrabold_italic";
+  src: url("fonts/OpenSans/opensans-extrabolditalic-webfont.eot");
+  src: url("fonts/OpenSans/opensans-extrabolditalic-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/OpenSans/opensans-extrabolditalic-webfont.woff") format("woff"),
+       url("fonts/OpenSans/opensans-extrabolditalic-webfont.ttf") format("truetype"),
+       url("fonts/OpenSans/opensans-extrabolditalic-webfont.svg#open_sansextrabold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sansitalic";
+  src: url("fonts/OpenSans/opensans-italic-webfont.eot");
+  src: url("fonts/OpenSans/opensans-italic-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/OpenSans/opensans-italic-webfont.woff") format("woff"),
+       url("fonts/OpenSans/opensans-italic-webfont.ttf") format("truetype"),
+       url("fonts/OpenSans/opensans-italic-webfont.svg#open_sansitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sanslight";
+  src: url("fonts/OpenSans/opensans-light-webfont.eot");
+  src: url("fonts/OpenSans/opensans-light-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/OpenSans/opensans-light-webfont.woff") format("woff"),
+       url("fonts/OpenSans/opensans-light-webfont.ttf") format("truetype"),
+       url("fonts/OpenSans/opensans-light-webfont.svg#open_sanslight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sanslight_italic";
+  src: url("fonts/OpenSans/opensans-lightitalic-webfont.eot");
+  src: url("fonts/OpenSans/opensans-lightitalic-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/OpenSans/opensans-lightitalic-webfont.woff") format("woff"),
+       url("fonts/OpenSans/opensans-lightitalic-webfont.ttf") format("truetype"),
+       url("fonts/OpenSans/opensans-lightitalic-webfont.svg#open_sanslight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sansregular";
+  src: url("fonts/OpenSans/opensans-regular-webfont.eot");
+  src: url("fonts/OpenSans/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/OpenSans/opensans-regular-webfont.woff") format("woff"),
+       url("fonts/OpenSans/opensans-regular-webfont.ttf") format("truetype"),
+       url("fonts/OpenSans/opensans-regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sanssemibold";
+  src: url("fonts/OpenSans/opensans-semibold-webfont.eot");
+  src: url("fonts/OpenSans/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/OpenSans/opensans-semibold-webfont.woff") format("woff"),
+       url("fonts/OpenSans/opensans-semibold-webfont.ttf") format("truetype"),
+       url("fonts/OpenSans/opensans-semibold-webfont.svg#open_sanssemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sanssemibold_italic";
+  src: url("fonts/OpenSans/opensans-semibolditalic-webfont.eot");
+  src: url("fonts/OpenSans/opensans-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/OpenSans/opensans-semibolditalic-webfont.woff") format("woff"),
+       url("fonts/OpenSans/opensans-semibolditalic-webfont.ttf") format("truetype"),
+       url("fonts/OpenSans/opensans-semibolditalic-webfont.svg#open_sanssemibold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Tungsten Font Family
+
+@font-face {
+  font-family: "tungstenbold";
+  src: url("fonts/Tungsten/tungsten-bold-webfont.eot");
+  src: url("fonts/Tungsten/tungsten-bold-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungsten-bold-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungsten-bold-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungsten-bold-webfont.svg#tungstenbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungstenbook";
+  src: url("fonts/Tungsten/tungsten-book-webfont.eot");
+  src: url("fonts/Tungsten/tungsten-book-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungsten-book-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungsten-book-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungsten-book-webfont.svg#tungstenbook") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungstenblack";
+  src: url("fonts/Tungsten/tungsten-black-webfont.eot");
+  src: url("fonts/Tungsten/tungsten-black-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungsten-black-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungsten-black-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungsten-black-webfont.svg#tungstenblack") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungstenlight";
+  src: url("fonts/Tungsten/tungsten-light-webfont.eot");
+  src: url("fonts/Tungsten/tungsten-light-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungsten-light-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungsten-light-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungsten-light-webfont.svg#tungstenlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungstenmedium";
+  src: url("fonts/Tungsten/tungsten-medium-webfont.eot");
+  src: url("fonts/Tungsten/tungsten-medium-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungsten-medium-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungsten-medium-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungsten-medium-webfont.svg#tungstenmedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungstensemibold";
+  src: url("fonts/Tungsten/tungsten-semibold-webfont.eot");
+  src: url("fonts/Tungsten/tungsten-semibold-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungsten-semibold-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungsten-semibold-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungsten-semibold-webfont.svg#tungstensemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungstenthin";
+  src: url("fonts/Tungsten/tungsten-thin-webfont.eot");
+  src: url("fonts/Tungsten/tungsten-thin-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungsten-thin-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungsten-thin-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungsten-thin-webfont.svg#tungstenthin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungstenextra_light";
+  src: url("fonts/Tungsten/tungsten-xlight-webfont.eot");
+  src: url("fonts/Tungsten/tungsten-xlight-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungsten-xlight-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungsten-xlight-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungsten-xlight-webfont.svg#tungstenextra_light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_compressedblack";
+  src: url("fonts/Tungsten/tungstencomp-black-webfont.eot");
+  src: url("fonts/Tungsten/tungstencomp-black-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencomp-black-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencomp-black-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencomp-black-webfont.svg#tungsten_compressedblack") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_compressedbold";
+  src: url("fonts/Tungsten/tungstencomp-bold-webfont.eot");
+  src: url("fonts/Tungsten/tungstencomp-bold-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencomp-bold-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencomp-bold-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencomp-bold-webfont.svg#tungsten_compressedbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_compressedbook";
+  src: url("fonts/Tungsten/tungstencomp-book-webfont.eot");
+  src: url("fonts/Tungsten/tungstencomp-book-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencomp-book-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencomp-book-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencomp-book-webfont.svg#tungsten_compressedbook") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_compressedlight";
+  src: url("fonts/Tungsten/tungstencomp-light-webfont.eot");
+  src: url("fonts/Tungsten/tungstencomp-light-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencomp-light-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencomp-light-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencomp-light-webfont.svg#tungsten_compressedlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_compressedmedium";
+  src: url("fonts/Tungsten/tungstencomp-medium-webfont.eot");
+  src: url("fonts/Tungsten/tungstencomp-medium-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencomp-medium-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencomp-medium-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencomp-medium-webfont.svg#tungsten_compressedmedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_compressedsemibold";
+  src: url("fonts/Tungsten/tungstencomp-semibold-webfont.eot");
+  src: url("fonts/Tungsten/tungstencomp-semibold-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencomp-semibold-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencomp-semibold-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencomp-semibold-webfont.svg#tungsten_compressedsemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_compressedthin";
+  src: url("fonts/Tungsten/tungstencomp-thin-webfont.eot");
+  src: url("fonts/Tungsten/tungstencomp-thin-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencomp-thin-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencomp-thin-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencomp-thin-webfont.svg#tungsten_compressedthin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_compressedXLt";
+  src: url("fonts/Tungsten/tungstencomp-xlight-webfont.eot");
+  src: url("fonts/Tungsten/tungstencomp-xlight-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencomp-xlight-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencomp-xlight-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencomp-xlight-webfont.svg#tungsten_compressedXLt") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_condensedblack";
+  src: url("fonts/Tungsten/tungstencond-black-webfont.eot");
+  src: url("fonts/Tungsten/tungstencond-black-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencond-black-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencond-black-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencond-black-webfont.svg#tungsten_condensedblack") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_condensedbold";
+  src: url("fonts/Tungsten/tungstencond-bold-webfont.eot");
+  src: url("fonts/Tungsten/tungstencond-bold-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencond-bold-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencond-bold-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencond-bold-webfont.svg#tungsten_condensedbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_condensedbook";
+  src: url("fonts/Tungsten/tungstencond-book-webfont.eot");
+  src: url("fonts/Tungsten/tungstencond-book-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencond-book-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencond-book-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencond-book-webfont.svg#tungsten_condensedbook") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_condensedlight";
+  src: url("fonts/Tungsten/tungstencond-light-webfont.eot");
+  src: url("fonts/Tungsten/tungstencond-light-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencond-light-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencond-light-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencond-light-webfont.svg#tungsten_condensedlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_condensedmedium";
+  src: url("fonts/Tungsten/tungstencond-medium-webfont.eot");
+  src: url("fonts/Tungsten/tungstencond-medium-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencond-medium-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencond-medium-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencond-medium-webfont.svg#tungsten_condensedmedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_condensedsemibold";
+  src: url("fonts/Tungsten/tungstencond-semibold-webfont.eot");
+  src: url("fonts/Tungsten/tungstencond-semibold-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencond-semibold-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencond-semibold-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencond-semibold-webfont.svg#tungsten_condensedsemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_condensedthin";
+  src: url("fonts/Tungsten/tungstencond-thin-webfont.eot");
+  src: url("fonts/Tungsten/tungstencond-thin-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencond-thin-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencond-thin-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencond-thin-webfont.svg#tungsten_condensedthin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_condensedextra_light";
+  src: url("fonts/Tungsten/tungstencond-xlight-webfont.eot");
+  src: url("fonts/Tungsten/tungstencond-xlight-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstencond-xlight-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstencond-xlight-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstencond-xlight-webfont.svg#tungsten_condensedextra_light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_narrowblack";
+  src: url("fonts/Tungsten/tungstennarrow-black-webfont.eot");
+  src: url("fonts/Tungsten/tungstennarrow-black-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstennarrow-black-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstennarrow-black-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstennarrow-black-webfont.svg#tungsten_narrowblack") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_narrowbold";
+  src: url("fonts/Tungsten/tungstennarrow-bold-webfont.eot");
+  src: url("fonts/Tungsten/tungstennarrow-bold-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstennarrow-bold-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstennarrow-bold-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstennarrow-bold-webfont.svg#tungsten_narrowbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_narrowbook";
+  src: url("fonts/Tungsten/tungstennarrow-book-webfont.eot");
+  src: url("fonts/Tungsten/tungstennarrow-book-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstennarrow-book-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstennarrow-book-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstennarrow-book-webfont.svg#tungsten_narrowbook") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_narrowlight";
+  src: url("fonts/Tungsten/tungstennarrow-light-webfont.eot");
+  src: url("fonts/Tungsten/tungstennarrow-light-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstennarrow-light-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstennarrow-light-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstennarrow-light-webfont.svg#tungsten_narrowlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_narrowmedium";
+  src: url("fonts/Tungsten/tungstennarrow-medium-webfont.eot");
+  src: url("fonts/Tungsten/tungstennarrow-medium-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstennarrow-medium-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstennarrow-medium-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstennarrow-medium-webfont.svg#tungsten_narrowmedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_narrowsemibold";
+  src: url("fonts/Tungsten/tungstennarrow-semibold-webfont.eot");
+  src: url("fonts/Tungsten/tungstennarrow-semibold-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstennarrow-semibold-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstennarrow-semibold-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstennarrow-semibold-webfont.svg#tungsten_narrowsemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_narrowthin";
+  src: url("fonts/Tungsten/tungstennarrow-thin-webfont.eot");
+  src: url("fonts/Tungsten/tungstennarrow-thin-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstennarrow-thin-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstennarrow-thin-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstennarrow-thin-webfont.svg#tungsten_narrowthin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tungsten_narrowextra_light";
+  src: url("fonts/Tungsten/tungstennarrow-xlight-webfont.eot");
+  src: url("fonts/Tungsten/tungstennarrow-xlight-webfont.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Tungsten/tungstennarrow-xlight-webfont.woff") format("woff"),
+       url("fonts/Tungsten/tungstennarrow-xlight-webfont.ttf") format("truetype"),
+       url("fonts/Tungsten/tungstennarrow-xlight-webfont.svg#tungsten_narrowextra_light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+* Symbolset
+* www.symbolset.com
+* Copyright © 2012 Oak Studios LLC
+*
+* Upload this file to your web server
+* and place this within your <head> tags.
+* <link href="webfonts/ss-social.css" rel="stylesheet" />
+*/
+
+@font-face {
+  font-family: "SSSocial";
+  src: url("fonts/Symbolset/ss-social-circle.eot");
+  src: url("fonts/Symbolset/ss-social-circle.eot?#iefix") format("embedded-opentype"), url("fonts/Symbolset/ss-social-circle.woff") format("woff"), url("fonts/Symbolset/ss-social-circle.ttf") format("truetype"), url("fonts/Symbolset/ss-social-circle.svg#SSSocialCircle") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "SSSocial";
+  src: url("fonts/Symbolset/ss-social-regular.eot");
+  src: url("fonts/Symbolset/ss-social-regular.eot?#iefix") format("embedded-opentype"), url("fonts/Symbolset/ss-social-regular.woff") format("woff"), url("fonts/Symbolset/ss-social-regular.ttf") format("truetype"), url("fonts/Symbolset/ss-social-regular.svg#SSSocialRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SSGlyphish";
+  src: url("fonts/Symbolset/ss-glyphish-outlined.eot");
+  src: url("fonts/Symbolset/ss-glyphish-outlined.eot?#iefix") format("embedded-opentype"), url("fonts/Symbolset/ss-glyphish-outlined.woff") format("woff"), url("fonts/Symbolset/ss-glyphish-outlined.ttf") format("truetype"), url("fonts/Symbolset/ss-glyphish-outlined.svg#SSGlyphishOutlined") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SSGlyphishFilled";
+  src: url("fonts/Symbolset/ss-glyphish-filled.eot");
+  src: url("fonts/Symbolset/ss-glyphish-filled.eot?#iefix") format("embedded-opentype"), url("fonts/Symbolset/ss-glyphish-filled.woff") format("woff"), url("fonts/Symbolset/ss-glyphish-filled.ttf") format("truetype"), url("fonts/Symbolset/ss-glyphish-filled.svg#SSGlyphishFilled") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SSStandard";
+  src: url("fonts/Symbolset/ss-standard.eot");
+  src: url("fonts/Symbolset/ss-standard.eot?#iefix") format("embedded-opentype"), url("fonts/Symbolset/ss-standard.woff") format("woff"), url("fonts/Symbolset/ss-standard.ttf") format("truetype"), url("fonts/Symbolset/ss-standard.svg#SSStandard") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ss-icon {
+  font-family: "SSStandard";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+
+  &.ss-standard {
+    font-family: "SSStandard";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    white-space: nowrap;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+[class^="ss-"]:before, [class*=" ss-"]:before, [class^="ss-"].ss-standard:before, [class*=" ss-"].ss-standard:before, [class^="ss-"].right:after, [class*=" ss-"].right:after, [class^="ss-"].ss-standard.right:after, [class*=" ss-"].ss-standard.right:after {
+  font-family: "SSStandard";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+[class^="ss-"].right:before, [class*=" ss-"].ss-standard.right:before {
+  display: none;
+  content: "";
+}
+
+.ss-cursor {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-crosshair {
+  &:before, &.right:after {
+    content: "⌖";
+  }
+}
+
+.ss-search {
+  &:before, &.right:after {
+    content: "🔎";
+  }
+}
+
+.ss-zoomin {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-zoomout {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-view {
+  &:before, &.right:after {
+    content: "👀";
+  }
+}
+
+.ss-attach {
+  &:before, &.right:after {
+    content: "📎";
+  }
+}
+
+.ss-link {
+  &:before, &.right:after {
+    content: "🔗";
+  }
+}
+
+.ss-move {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-write {
+  &:before, &.right:after {
+    content: "✎";
+  }
+}
+
+.ss-writingdisabled {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-erase {
+  &:before, &.right:after {
+    content: "✐";
+  }
+}
+
+.ss-compose {
+  &:before, &.right:after {
+    content: "📝";
+  }
+}
+
+.ss-lock {
+  &:before, &.right:after {
+    content: "🔒";
+  }
+}
+
+.ss-unlock {
+  &:before, &.right:after {
+    content: "🔓";
+  }
+}
+
+.ss-key {
+  &:before, &.right:after {
+    content: "🔑";
+  }
+}
+
+.ss-backspace {
+  &:before, &.right:after {
+    content: "⌫";
+  }
+}
+
+.ss-ban {
+  &:before, &.right:after {
+    content: "🚫";
+  }
+}
+
+.ss-trash {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-target {
+  &:before, &.right:after {
+    content: "◎";
+  }
+}
+
+.ss-tag {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bookmark {
+  &:before, &.right:after {
+    content: "🔖";
+  }
+}
+
+.ss-flag {
+  &:before, &.right:after {
+    content: "⚑";
+  }
+}
+
+.ss-like {
+  &:before, &.right:after {
+    content: "👍";
+  }
+}
+
+.ss-dislike {
+  &:before, &.right:after {
+    content: "👎";
+  }
+}
+
+.ss-heart {
+  &:before, &.right:after {
+    content: "♥";
+  }
+}
+
+.ss-halfheart {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-star {
+  &:before, &.right:after {
+    content: "⋆";
+  }
+}
+
+.ss-halfstar {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-sample {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-crop {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-layers {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-phone {
+  &:before, &.right:after {
+    content: "📞";
+  }
+}
+
+.ss-phonedisabled {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-rss {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-facetime {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-reply {
+  &:before, &.right:after {
+    content: "↩";
+  }
+}
+
+.ss-send {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-mail {
+  &:before, &.right:after {
+    content: "✉";
+  }
+}
+
+.ss-inbox {
+  &:before, &.right:after {
+    content: "📥";
+  }
+}
+
+.ss-chat {
+  &:before, &.right:after {
+    content: "💬";
+  }
+}
+
+.ss-user {
+  &:before, &.right:after {
+    content: "👤";
+  }
+}
+
+.ss-femaleuser {
+  &:before, &.right:after {
+    content: "👧";
+  }
+}
+
+.ss-users {
+  &:before, &.right:after {
+    content: "👥";
+  }
+}
+
+.ss-cart {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-creditcard {
+  &:before, &.right:after {
+    content: "💳";
+  }
+}
+
+.ss-dollarsign {
+  &:before, &.right:after {
+    content: "💲";
+  }
+}
+
+.ss-barchart {
+  &:before, &.right:after {
+    content: "📊";
+  }
+}
+
+.ss-piechart {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-box {
+  &:before, &.right:after {
+    content: "📦";
+  }
+}
+
+.ss-home {
+  &:before, &.right:after {
+    content: "⌂";
+  }
+}
+
+.ss-globe {
+  &:before, &.right:after {
+    content: "🌎";
+  }
+}
+
+.ss-navigate {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-compass {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-signpost {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-map {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-location {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pin {
+  &:before, &.right:after {
+    content: "📍";
+  }
+}
+
+.ss-database {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-hdd {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-music {
+  &:before, &.right:after {
+    content: "♫";
+  }
+}
+
+.ss-mic {
+  &:before, &.right:after {
+    content: "🎤";
+  }
+}
+
+.ss-volume {
+  &:before, &.right:after {
+    content: "🔈";
+  }
+}
+
+.ss-lowvolume {
+  &:before, &.right:after {
+    content: "🔉";
+  }
+}
+
+.ss-highvolume {
+  &:before, &.right:after {
+    content: "🔊";
+  }
+}
+
+.ss-airplay {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-camera {
+  &:before, &.right:after {
+    content: "📷";
+  }
+}
+
+.ss-picture {
+  &:before, &.right:after {
+    content: "🌄";
+  }
+}
+
+.ss-video {
+  &:before, &.right:after {
+    content: "📹";
+  }
+}
+
+.ss-play {
+  &:before, &.right:after {
+    content: "▶";
+  }
+}
+
+.ss-pause {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-stop {
+  &:before, &.right:after {
+    content: "■";
+  }
+}
+
+.ss-record {
+  &:before, &.right:after {
+    content: "●";
+  }
+}
+
+.ss-rewind {
+  &:before, &.right:after {
+    content: "⏪";
+  }
+}
+
+.ss-fastforward {
+  &:before, &.right:after {
+    content: "⏩";
+  }
+}
+
+.ss-skipback {
+  &:before, &.right:after {
+    content: "⏮";
+  }
+}
+
+.ss-skipforward {
+  &:before, &.right:after {
+    content: "⏭";
+  }
+}
+
+.ss-eject {
+  &:before, &.right:after {
+    content: "⏏";
+  }
+}
+
+.ss-repeat {
+  &:before, &.right:after {
+    content: "🔁";
+  }
+}
+
+.ss-replay {
+  &:before, &.right:after {
+    content: "↺";
+  }
+}
+
+.ss-shuffle {
+  &:before, &.right:after {
+    content: "🔀";
+  }
+}
+
+.ss-book {
+  &:before, &.right:after {
+    content: "📕";
+  }
+}
+
+.ss-openbook {
+  &:before, &.right:after {
+    content: "📖";
+  }
+}
+
+.ss-notebook {
+  &:before, &.right:after {
+    content: "📓";
+  }
+}
+
+.ss-grid {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-rows {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-columns {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-thumbnails {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-desktop {
+  &:before, &.right:after {
+    content: "💻";
+  }
+}
+
+.ss-laptop {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tablet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cell {
+  &:before, &.right:after {
+    content: "📱";
+  }
+}
+
+.ss-battery {
+  &:before, &.right:after {
+    content: "🔋";
+  }
+}
+
+.ss-highbattery {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-mediumbattery {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-lowbattery {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-emptybattery {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-downloadcloud {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-download {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-uploadcloud {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-upload {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-fork {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-merge {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-refresh {
+  &:before, &.right:after {
+    content: "↻";
+  }
+}
+
+.ss-sync {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-loading {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-wifi {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-connection {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-file {
+  &:before, &.right:after {
+    content: "📄";
+  }
+}
+
+.ss-folder {
+  &:before, &.right:after {
+    content: "📁";
+  }
+}
+
+.ss-quote {
+  &:before, &.right:after {
+    content: "“";
+  }
+}
+
+.ss-text {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-font {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-print {
+  &:before, &.right:after {
+    content: "⎙";
+  }
+}
+
+.ss-fax {
+  &:before, &.right:after {
+    content: "📠";
+  }
+}
+
+.ss-list {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-layout {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-action {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-redirect {
+  &:before, &.right:after {
+    content: "↪";
+  }
+}
+
+.ss-expand {
+  &:before, &.right:after {
+    content: "⤢";
+  }
+}
+
+.ss-contract {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-help {
+  &:before, &.right:after {
+    content: "❓";
+  }
+}
+
+.ss-info {
+  &:before, &.right:after {
+    content: "ℹ";
+  }
+}
+
+.ss-alert {
+  &:before, &.right:after {
+    content: "⚠";
+  }
+}
+
+.ss-caution {
+  &:before, &.right:after {
+    content: "⛔";
+  }
+}
+
+.ss-logout {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-plus {
+  &:before, &.right:after {
+    content: "+";
+  }
+}
+
+.ss-hyphen {
+  &:before, &.right:after {
+    content: "-";
+  }
+}
+
+.ss-check {
+  &:before, &.right:after {
+    content: "✓";
+  }
+}
+
+.ss-delete {
+  &:before, &.right:after {
+    content: "␡";
+  }
+}
+
+.ss-settings {
+  &:before, &.right:after {
+    content: "⚙";
+  }
+}
+
+.ss-dashboard {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-notifications {
+  &:before, &.right:after {
+    content: "🔔";
+  }
+}
+
+.ss-notificationsdisabled {
+  &:before, &.right:after {
+    content: "🔕";
+  }
+}
+
+.ss-clock {
+  &:before, &.right:after {
+    content: "⏲";
+  }
+}
+
+.ss-stopwatch {
+  &:before, &.right:after {
+    content: "⏱";
+  }
+}
+
+.ss-calendar {
+  &:before, &.right:after {
+    content: "📅";
+  }
+}
+
+.ss-addcalendar {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-removecalendar {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-checkcalendar {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-deletecalendar {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-briefcase {
+  &:before, &.right:after {
+    content: "💼";
+  }
+}
+
+.ss-cloud {
+  &:before, &.right:after {
+    content: "☁";
+  }
+}
+
+.ss-droplet {
+  &:before, &.right:after {
+    content: "💧";
+  }
+}
+
+.ss-up {
+  &:before, &.right:after {
+    content: "⬆";
+  }
+}
+
+.ss-upright {
+  &:before, &.right:after {
+    content: "⬈";
+  }
+}
+
+.ss-right {
+  &:before, &.right:after {
+    content: "➡";
+  }
+}
+
+.ss-downright {
+  &:before, &.right:after {
+    content: "⬊";
+  }
+}
+
+.ss-down {
+  &:before, &.right:after {
+    content: "⬇";
+  }
+}
+
+.ss-downleft {
+  &:before, &.right:after {
+    content: "⬋";
+  }
+}
+
+.ss-left {
+  &:before, &.right:after {
+    content: "⬅";
+  }
+}
+
+.ss-upleft {
+  &:before, &.right:after {
+    content: "⬉";
+  }
+}
+
+.ss-navigateup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-navigateright {
+  &:before, &.right:after {
+    content: "▻";
+  }
+}
+
+.ss-navigatedown {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-navigateleft {
+  &:before, &.right:after {
+    content: "◅";
+  }
+}
+
+.ss-directup {
+  &:before, &.right:after {
+    content: "▴";
+  }
+}
+
+.ss-directright {
+  &:before, &.right:after {
+    content: "▹";
+  }
+}
+
+.ss-dropdown {
+  &:before, &.right:after {
+    content: "▾";
+  }
+}
+
+.ss-directleft {
+  &:before, &.right:after {
+    content: "◃";
+  }
+}
+
+.ss-retweet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+/* Legacy classes */
+
+.ss-volumelow {
+  &:before, &.right:after {
+    content: "🔉";
+  }
+}
+
+.ss-volumehigh {
+  &:before, &.right:after {
+    content: "🔊";
+  }
+}
+
+.ss-batteryhigh {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-batterymedium {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-batterylow {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-batteryempty {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-clouddownload {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cloudupload {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-calendaradd {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-calendarremove {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-calendarcheck {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-calendardelete {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+/* This triggers a redraw in IE to Fix IE8"s :before content rendering. */
+
+html:hover [class^="ss-"] {
+  -ms-zoom: 1;
+}
+
+.ss-icon {
+  font-family: "SSGlyphish";
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &.ss-glyphish-filled {
+    font-family: "SSGlyphish";
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    white-space: nowrap;
+    /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+[class^="ss-"]:before, [class*=" ss-"]:before, [class^="ss-"].ss-glyphish-filled:before, [class*=" ss-"].ss-glyphish-filled:before, [class^="ss-"].right:after, [class*=" ss-"].right:after, [class^="ss-"].ss-glyphish-outined.right:after, [class*=" ss-"].ss-glyphish-filled.right:after {
+  font-family: "SSGlyphish";
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ss-"].right:before, [class*=" ss-"].right:before {
+  display: none;
+  content: "";
+}
+
+.ss-cursor {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-crosshair {
+  &:before, &.right:after {
+    content: "⌖";
+  }
+}
+
+.ss-search {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-zoomin {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-zoomout {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-view {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-binoculars {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-incognito {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-radar {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-attach {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-link {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-write {
+  &:before, &.right:after {
+    content: "✎";
+  }
+}
+
+.ss-compose {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-lock {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-unlock {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-combinationlock {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-key {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-keyhole {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-vip {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-trash {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-target {
+  &:before, &.right:after {
+    content: "◎";
+  }
+}
+
+.ss-bullseye {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-lightning {
+  &:before, &.right:after {
+    content: "☇";
+  }
+}
+
+.ss-radioactive {
+  &:before, &.right:after {
+    content: "☢";
+  }
+}
+
+.ss-skull {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-skullandcrossbones {
+  &:before, &.right:after {
+    content: "☠";
+  }
+}
+
+.ss-tag {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tags {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pricetag {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-flag {
+  &:before, &.right:after {
+    content: "⚑";
+  }
+}
+
+.ss-like {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-dislike {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-heart {
+  &:before, &.right:after {
+    content: "♥";
+  }
+}
+
+.ss-star {
+  &:before, &.right:after {
+    content: "⋆";
+  }
+}
+
+.ss-archive {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-badge {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-trophy {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-medal {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-crown {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-layers {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-layergroup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cut {
+  &:before, &.right:after {
+    content: "✂";
+  }
+}
+
+.ss-magicwand {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-clipboard {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-ruler {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-brush {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-paintroller {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-rubberstamp {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-palette {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-phone {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-voicemail {
+  &:before, &.right:after {
+    content: "⌕";
+  }
+}
+
+.ss-megaphone {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-at {
+  &:before, &.right:after {
+    content: "@";
+  }
+}
+
+.ss-reply {
+  &:before, &.right:after {
+    content: "↩";
+  }
+}
+
+.ss-replyall {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-mailbox {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-send {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-mail {
+  &:before, &.right:after {
+    content: "✉";
+  }
+}
+
+.ss-inbox {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-stamp {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-chat {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-chats {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-ellipsischat {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-ellipsis {
+  &:before, &.right:after {
+    content: "…";
+  }
+}
+
+.ss-smile {
+  &:before, &.right:after {
+    content: "☻";
+  }
+}
+
+.ss-user {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-femaleuser {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-users {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-baby {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-alien {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-ghost {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-footsteps {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-usergroup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-contacts {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-userprofile {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cart {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-shoppingbag {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-gift {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-store {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-barcode {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-creditcard {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-creditcards {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-banknote {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-currency {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-piggybank {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-calculator {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tally {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bank {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-scales {
+  &:before, &.right:after {
+    content: "⚖";
+  }
+}
+
+.ss-gavel {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-meeting {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-presentation {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-piechart {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-barchart {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-activity {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-flowchart {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-stock {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-box {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-crate {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-handtruck {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-home {
+  &:before, &.right:after {
+    content: "⌂";
+  }
+}
+
+.ss-fence {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-buildings {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-hotel {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-warehouse {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-castle {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-globe {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-earth {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-navigate {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-compassnavigate {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-compass {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-signpost {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-map {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-location {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pin {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pushpin {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-maplocation {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-floppydisk {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-puzzle {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-install {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-window {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-windows {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-commandline {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bug {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-database {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-music {
+  &:before, &.right:after {
+    content: "♫";
+  }
+}
+
+.ss-eighthnote {
+  &:before, &.right:after {
+    content: "♪";
+  }
+}
+
+.ss-guitar {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-piano {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pianokeys {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-trumpet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-mic {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-studiomic {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-headphones {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-mutevolume {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-volume {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-lowvolume {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-highvolume {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-ipod {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-stereo {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-speaker {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-vinylrecord {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-disc {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-playlist {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-airplay {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-camera {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-picture {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pictures {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-video {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-film {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-filmroll {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-widescreenfilm {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-clapboard {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tv {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-flatscreen {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-videogame {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-repeat {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-replay {
+  &:before, &.right:after {
+    content: "↺";
+  }
+}
+
+.ss-shuffle {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-filecabinet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-storagebox {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-index {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-page {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-book {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-openbook {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-notebook {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-spiralbound {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-newspaper {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-notepad {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cards {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-notice {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-grid {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-rows {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-menu {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-filter {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-ascending {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-descending {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-desktop {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-laptop {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tablet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-smartphone {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cell {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-battery {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-door {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-washer {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-birdhouse {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-doghouse {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-lightbulb {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-lamp {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-spraycan {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-spraybottle {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-chair {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-frame {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-flowerframe {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-atom {
+  &:before, &.right:after {
+    content: "⚛";
+  }
+}
+
+.ss-telescope {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-balloon {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-fuzzydice {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-magiclamp {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-slingshot {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bomb {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-gun {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-sword {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-swords {
+  &:before, &.right:after {
+    content: "⚔";
+  }
+}
+
+.ss-bowandarrow {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-targetdummy {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-downloadcloud {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-download {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-downloadbox {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-uploadcloud {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-upload {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-merge {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-fork {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-joinpath {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-splitpath {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-forkpath {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-refresh {
+  &:before, &.right:after {
+    content: "↻";
+  }
+}
+
+.ss-sync {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-wifi {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-connection {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-file {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-files {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-folder {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-anchor {
+  &:before, &.right:after {
+    content: "⚓";
+  }
+}
+
+.ss-print {
+  &:before, &.right:after {
+    content: "⎙";
+  }
+}
+
+.ss-list {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-starlist {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-layout {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-twoup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-threeup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-fourup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-action {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-expand {
+  &:before, &.right:after {
+    content: "⤢";
+  }
+}
+
+.ss-contract {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-lifepreserver {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-help {
+  &:before, &.right:after {
+    content: "❓";
+  }
+}
+
+.ss-info {
+  &:before, &.right:after {
+    content: "ℹ";
+  }
+}
+
+.ss-alert {
+  &:before, &.right:after {
+    content: "⚠";
+  }
+}
+
+.ss-plus {
+  &:before, &.right:after {
+    content: "+";
+  }
+}
+
+.ss-hyphen {
+  &:before, &.right:after {
+    content: "-";
+  }
+}
+
+.ss-check {
+  &:before, &.right:after {
+    content: "✓";
+  }
+}
+
+.ss-fish {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-whale {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bird {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pawprint {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bone {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tree {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-flower {
+  &:before, &.right:after {
+    content: "⚘";
+  }
+}
+
+.ss-gem {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-mountains {
+  &:before, &.right:after {
+    content: "⛰";
+  }
+}
+
+.ss-settings {
+  &:before, &.right:after {
+    content: "⚙";
+  }
+}
+
+.ss-dashboard {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-dial {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-notifications {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-toggles {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-switch {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-brightness {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-contrast {
+  &:before, &.right:after {
+    content: "◐";
+  }
+}
+
+.ss-flash {
+  &:before, &.right:after {
+    content: "⌁";
+  }
+}
+
+.ss-magnet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-level {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-toolbox {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-hammer {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-wrench {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-nut {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-screw {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-clock {
+  &:before, &.right:after {
+    content: "⏲";
+  }
+}
+
+.ss-stopwatch {
+  &:before, &.right:after {
+    content: "⏱";
+  }
+}
+
+.ss-alarmclock {
+  &:before, &.right:after {
+    content: "⏰";
+  }
+}
+
+.ss-counterclockwise {
+  &:before, &.right:after {
+    content: "⥀";
+  }
+}
+
+.ss-calendar {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-food {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-egg {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-chickenleg {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pizza {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-birthdaycake {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-icecream {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-popsicle {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-coffee {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-mug {
+  &:before, &.right:after {
+    content: "☕";
+  }
+}
+
+.ss-beer {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bottle {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-wineglass {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-wine {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cocktail {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-waterbottle {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-utensils {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-measuringcup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-helmet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-graduationcap {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-glasses {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-sunglasses {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tie {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bowtie {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tshirt {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-jersey {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-sock {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-handbag {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-briefcase {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-messengerbag {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-hanger {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-safetypin {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-thermometer {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cloud {
+  &:before, &.right:after {
+    content: "☁";
+  }
+}
+
+.ss-sun {
+  &:before, &.right:after {
+    content: "☀";
+  }
+}
+
+.ss-partlycloudy {
+  &:before, &.right:after {
+    content: "⛅";
+  }
+}
+
+.ss-rain {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-thunderstorm {
+  &:before, &.right:after {
+    content: "⛈";
+  }
+}
+
+.ss-snow {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-umbrella {
+  &:before, &.right:after {
+    content: "☂";
+  }
+}
+
+.ss-crescentmoon {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-planet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-recycle {
+  &:before, &.right:after {
+    content: "♲";
+  }
+}
+
+.ss-outlet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-car {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-train {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bus {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-trailer {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-plane {
+  &:before, &.right:after {
+    content: "✈";
+  }
+}
+
+.ss-boat {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-sailboat {
+  &:before, &.right:after {
+    content: "⛵";
+  }
+}
+
+.ss-boat {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-schooner {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-rocket {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-satellite {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-ufo {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-helm {
+  &:before, &.right:after {
+    content: "⎈";
+  }
+}
+
+.ss-fuel {
+  &:before, &.right:after {
+    content: "⛽";
+  }
+}
+
+.ss-firehydrant {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-theatre {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-ticket {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-golf {
+  &:before, &.right:after {
+    content: "⛳";
+  }
+}
+
+.ss-golfshot {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-basketball {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-hockeymask {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-billiards {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-baseball {
+  &:before, &.right:after {
+    content: "⚾";
+  }
+}
+
+.ss-baseballfield {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tennis {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tabletennis {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-boxing {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bowling {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-football {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-soccer {
+  &:before, &.right:after {
+    content: "⚽";
+  }
+}
+
+.ss-dumbbell {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-fishhook {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-gameplan {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-hiker {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-runner {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pedestrian {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-callbell {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-shower {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bandage {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pill {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-flask {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-testtube {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pulse {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-up {
+  &:before, &.right:after {
+    content: "⬆";
+  }
+}
+
+.ss-right {
+  &:before, &.right:after {
+    content: "➡";
+  }
+}
+
+.ss-down {
+  &:before, &.right:after {
+    content: "⬇";
+  }
+}
+
+.ss-left {
+  &:before, &.right:after {
+    content: "⬅";
+  }
+}
+
+.ss-rightward {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-leftward {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-squiggle {
+  &:before, &.right:after {
+    content: "⇝";
+  }
+}
+
+.ss-retweet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+/* This triggers a redraw in IE to Fix IE8"s :before content rendering. */
+
+html:hover [class^="ss-"] {
+  -ms-zoom: 1;
+}
+
+.ss-icon {
+  font-family: "SSGlyphish";
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &.ss-glyphish-outlined {
+    font-family: "SSGlyphish";
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    white-space: nowrap;
+    /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+[class^="ss-"]:before, [class*=" ss-"]:before, [class^="ss-"].ss-glyphish-outlined:before, [class*=" ss-"].ss-glyphish-outlined:before, [class^="ss-"].right:after, [class*=" ss-"].right:after, [class^="ss-"].ss-glyphish-outined.right:after, [class*=" ss-"].ss-glyphish-outlined.right:after {
+  font-family: "SSGlyphish";
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ss-"].right:before, [class*=" ss-"].right:before {
+  display: none;
+  content: "";
+}
+
+.ss-cursor {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-crosshair {
+  &:before, &.right:after {
+    content: "⌖";
+  }
+}
+
+.ss-search {
+  &:before, &.right:after {
+    content: "🔎";
+  }
+}
+
+.ss-zoomin {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-zoomout {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-view {
+  &:before, &.right:after {
+    content: "👁";
+  }
+}
+
+.ss-binoculars {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-incognito {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-radar {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-attach {
+  &:before, &.right:after {
+    content: "📎";
+  }
+}
+
+.ss-link {
+  &:before, &.right:after {
+    content: "🔗";
+  }
+}
+
+.ss-write {
+  &:before, &.right:after {
+    content: "✎";
+  }
+}
+
+.ss-compose {
+  &:before, &.right:after {
+    content: "📝";
+  }
+}
+
+.ss-lock {
+  &:before, &.right:after {
+    content: "🔒";
+  }
+}
+
+.ss-unlock {
+  &:before, &.right:after {
+    content: "🔓";
+  }
+}
+
+.ss-combinationlock {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-key {
+  &:before, &.right:after {
+    content: "🔑";
+  }
+}
+
+.ss-keyhole {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-vip {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-trash {
+  &:before, &.right:after {
+    content: "🗑";
+  }
+}
+
+.ss-target {
+  &:before, &.right:after {
+    content: "◎";
+  }
+}
+
+.ss-bullseye {
+  &:before, &.right:after {
+    content: "🎯";
+  }
+}
+
+.ss-lightning {
+  &:before, &.right:after {
+    content: "☇";
+  }
+}
+
+.ss-radioactive {
+  &:before, &.right:after {
+    content: "☢";
+  }
+}
+
+.ss-skull {
+  &:before, &.right:after {
+    content: "💀";
+  }
+}
+
+.ss-skullandcrossbones {
+  &:before, &.right:after {
+    content: "☠";
+  }
+}
+
+.ss-tag {
+  &:before, &.right:after {
+    content: "🏷";
+  }
+}
+
+.ss-tags {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pricetag {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-flag {
+  &:before, &.right:after {
+    content: "⚑";
+  }
+}
+
+.ss-like {
+  &:before, &.right:after {
+    content: "👍";
+  }
+}
+
+.ss-dislike {
+  &:before, &.right:after {
+    content: "👎";
+  }
+}
+
+.ss-heart {
+  &:before, &.right:after {
+    content: "♥";
+  }
+}
+
+.ss-star {
+  &:before, &.right:after {
+    content: "⋆";
+  }
+}
+
+.ss-archive {
+  &:before, &.right:after {
+    content: "🗃";
+  }
+}
+
+.ss-badge {
+  &:before, &.right:after {
+    content: "📛";
+  }
+}
+
+.ss-trophy {
+  &:before, &.right:after {
+    content: "🏆";
+  }
+}
+
+.ss-medal {
+  &:before, &.right:after {
+    content: "🎖";
+  }
+}
+
+.ss-crown {
+  &:before, &.right:after {
+    content: "👑";
+  }
+}
+
+.ss-layers {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-layergroup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cut {
+  &:before, &.right:after {
+    content: "✂";
+  }
+}
+
+.ss-magicwand {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-clipboard {
+  &:before, &.right:after {
+    content: "📋";
+  }
+}
+
+.ss-ruler {
+  &:before, &.right:after {
+    content: "📏";
+  }
+}
+
+.ss-brush {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-paintroller {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-rubberstamp {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-palette {
+  &:before, &.right:after {
+    content: "🎨";
+  }
+}
+
+.ss-phone {
+  &:before, &.right:after {
+    content: "📞";
+  }
+}
+
+.ss-voicemail {
+  &:before, &.right:after {
+    content: "⌕";
+  }
+}
+
+.ss-megaphone {
+  &:before, &.right:after {
+    content: "📢";
+  }
+}
+
+.ss-at {
+  &:before, &.right:after {
+    content: "@";
+  }
+}
+
+.ss-reply {
+  &:before, &.right:after {
+    content: "↩";
+  }
+}
+
+.ss-replyall {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-mailbox {
+  &:before, &.right:after {
+    content: "📫";
+  }
+}
+
+.ss-send {
+  &:before, &.right:after {
+    content: "🖅";
+  }
+}
+
+.ss-mail {
+  &:before, &.right:after {
+    content: "✉";
+  }
+}
+
+.ss-inbox {
+  &:before, &.right:after {
+    content: "📥";
+  }
+}
+
+.ss-stamp {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-chat {
+  &:before, &.right:after {
+    content: "💬";
+  }
+}
+
+.ss-chats {
+  &:before, &.right:after {
+    content: "🗪";
+  }
+}
+
+.ss-ellipsischat {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-ellipsis {
+  &:before, &.right:after {
+    content: "…";
+  }
+}
+
+.ss-smile {
+  &:before, &.right:after {
+    content: "☻";
+  }
+}
+
+.ss-user {
+  &:before, &.right:after {
+    content: "👤";
+  }
+}
+
+.ss-femaleuser {
+  &:before, &.right:after {
+    content: "👧";
+  }
+}
+
+.ss-users {
+  &:before, &.right:after {
+    content: "👥";
+  }
+}
+
+.ss-baby {
+  &:before, &.right:after {
+    content: "👶";
+  }
+}
+
+.ss-alien {
+  &:before, &.right:after {
+    content: "👽";
+  }
+}
+
+.ss-ghost {
+  &:before, &.right:after {
+    content: "👻";
+  }
+}
+
+.ss-footsteps {
+  &:before, &.right:after {
+    content: "👣";
+  }
+}
+
+.ss-usergroup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-contacts {
+  &:before, &.right:after {
+    content: "📇";
+  }
+}
+
+.ss-userprofile {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cart {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-shoppingbag {
+  &:before, &.right:after {
+    content: "🛍";
+  }
+}
+
+.ss-gift {
+  &:before, &.right:after {
+    content: "🎁";
+  }
+}
+
+.ss-store {
+  &:before, &.right:after {
+    content: "🏪";
+  }
+}
+
+.ss-barcode {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-creditcard {
+  &:before, &.right:after {
+    content: "💳";
+  }
+}
+
+.ss-creditcards {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-banknote {
+  &:before, &.right:after {
+    content: "💵";
+  }
+}
+
+.ss-currency {
+  &:before, &.right:after {
+    content: "💱";
+  }
+}
+
+.ss-piggybank {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-calculator {
+  &:before, &.right:after {
+    content: "🖩";
+  }
+}
+
+.ss-tally {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bank {
+  &:before, &.right:after {
+    content: "🏦";
+  }
+}
+
+.ss-scales {
+  &:before, &.right:after {
+    content: "⚖";
+  }
+}
+
+.ss-gavel {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-meeting {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-presentation {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-piechart {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-barchart {
+  &:before, &.right:after {
+    content: "📊";
+  }
+}
+
+.ss-activity {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-flowchart {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-stock {
+  &:before, &.right:after {
+    content: "🗠";
+  }
+}
+
+.ss-box {
+  &:before, &.right:after {
+    content: "📦";
+  }
+}
+
+.ss-crate {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-handtruck {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-home {
+  &:before, &.right:after {
+    content: "⌂";
+  }
+}
+
+.ss-fence {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-buildings {
+  &:before, &.right:after {
+    content: "🏢";
+  }
+}
+
+.ss-hotel {
+  &:before, &.right:after {
+    content: "🏨";
+  }
+}
+
+.ss-warehouse {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-castle {
+  &:before, &.right:after {
+    content: "🏰";
+  }
+}
+
+.ss-globe {
+  &:before, &.right:after {
+    content: "🌐";
+  }
+}
+
+.ss-earth {
+  &:before, &.right:after {
+    content: "🌎";
+  }
+}
+
+.ss-navigate {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-compassnavigate {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-compass {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-signpost {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-map {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-location {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pin {
+  &:before, &.right:after {
+    content: "📍";
+  }
+}
+
+.ss-pushpin {
+  &:before, &.right:after {
+    content: "📌";
+  }
+}
+
+.ss-maplocation {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-floppydisk {
+  &:before, &.right:after {
+    content: "💾";
+  }
+}
+
+.ss-puzzle {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-install {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-window {
+  &:before, &.right:after {
+    content: "🗔";
+  }
+}
+
+.ss-windows {
+  &:before, &.right:after {
+    content: "🗗";
+  }
+}
+
+.ss-commandline {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bug {
+  &:before, &.right:after {
+    content: "🐛";
+  }
+}
+
+.ss-database {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-music {
+  &:before, &.right:after {
+    content: "♫";
+  }
+}
+
+.ss-eighthnote {
+  &:before, &.right:after {
+    content: "♪";
+  }
+}
+
+.ss-guitar {
+  &:before, &.right:after {
+    content: "🎸";
+  }
+}
+
+.ss-piano {
+  &:before, &.right:after {
+    content: "🎹";
+  }
+}
+
+.ss-pianokeys {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-trumpet {
+  &:before, &.right:after {
+    content: "🎺";
+  }
+}
+
+.ss-mic {
+  &:before, &.right:after {
+    content: "🎤";
+  }
+}
+
+.ss-studiomic {
+  &:before, &.right:after {
+    content: "🎙";
+  }
+}
+
+.ss-headphones {
+  &:before, &.right:after {
+    content: "🎧";
+  }
+}
+
+.ss-mutevolume {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-volume {
+  &:before, &.right:after {
+    content: "🔈";
+  }
+}
+
+.ss-lowvolume {
+  &:before, &.right:after {
+    content: "🔉";
+  }
+}
+
+.ss-highvolume {
+  &:before, &.right:after {
+    content: "🔊";
+  }
+}
+
+.ss-ipod {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-stereo {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-speaker {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-vinylrecord {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-disc {
+  &:before, &.right:after {
+    content: "💿";
+  }
+}
+
+.ss-playlist {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-airplay {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-camera {
+  &:before, &.right:after {
+    content: "📷";
+  }
+}
+
+.ss-picture {
+  &:before, &.right:after {
+    content: "🌄";
+  }
+}
+
+.ss-pictures {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-video {
+  &:before, &.right:after {
+    content: "📹";
+  }
+}
+
+.ss-film {
+  &:before, &.right:after {
+    content: "🎞";
+  }
+}
+
+.ss-filmroll {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-widescreenfilm {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-clapboard {
+  &:before, &.right:after {
+    content: "🎬";
+  }
+}
+
+.ss-tv {
+  &:before, &.right:after {
+    content: "📺";
+  }
+}
+
+.ss-flatscreen {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-videogame {
+  &:before, &.right:after {
+    content: "🎮";
+  }
+}
+
+.ss-repeat {
+  &:before, &.right:after {
+    content: "🔁";
+  }
+}
+
+.ss-replay {
+  &:before, &.right:after {
+    content: "↺";
+  }
+}
+
+.ss-shuffle {
+  &:before, &.right:after {
+    content: "🔀";
+  }
+}
+
+.ss-filecabinet {
+  &:before, &.right:after {
+    content: "🗄";
+  }
+}
+
+.ss-storagebox {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-index {
+  &:before, &.right:after {
+    content: "🗂";
+  }
+}
+
+.ss-page {
+  &:before, &.right:after {
+    content: "📃";
+  }
+}
+
+.ss-book {
+  &:before, &.right:after {
+    content: "📕";
+  }
+}
+
+.ss-openbook {
+  &:before, &.right:after {
+    content: "📖";
+  }
+}
+
+.ss-notebook {
+  &:before, &.right:after {
+    content: "📓";
+  }
+}
+
+.ss-spiralbound {
+  &:before, &.right:after {
+    content: "🗒";
+  }
+}
+
+.ss-newspaper {
+  &:before, &.right:after {
+    content: "📰";
+  }
+}
+
+.ss-notepad {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cards {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-notice {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-grid {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-rows {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-menu {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-filter {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-ascending {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-descending {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-desktop {
+  &:before, &.right:after {
+    content: "💻";
+  }
+}
+
+.ss-laptop {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tablet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-smartphone {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cell {
+  &:before, &.right:after {
+    content: "📱";
+  }
+}
+
+.ss-battery {
+  &:before, &.right:after {
+    content: "🔋";
+  }
+}
+
+.ss-door {
+  &:before, &.right:after {
+    content: "🚪";
+  }
+}
+
+.ss-washer {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-birdhouse {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-doghouse {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-lightbulb {
+  &:before, &.right:after {
+    content: "💡";
+  }
+}
+
+.ss-lamp {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-spraycan {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-spraybottle {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-chair {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-frame {
+  &:before, &.right:after {
+    content: "🖼";
+  }
+}
+
+.ss-flowerframe {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-atom {
+  &:before, &.right:after {
+    content: "⚛";
+  }
+}
+
+.ss-telescope {
+  &:before, &.right:after {
+    content: "🔭";
+  }
+}
+
+.ss-balloon {
+  &:before, &.right:after {
+    content: "🎈";
+  }
+}
+
+.ss-fuzzydice {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-magiclamp {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-slingshot {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bomb {
+  &:before, &.right:after {
+    content: "💣";
+  }
+}
+
+.ss-gun {
+  &:before, &.right:after {
+    content: "🔫";
+  }
+}
+
+.ss-sword {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-swords {
+  &:before, &.right:after {
+    content: "⚔";
+  }
+}
+
+.ss-bowandarrow {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-targetdummy {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-downloadcloud {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-download {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-downloadbox {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-uploadcloud {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-upload {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-merge {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-fork {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-joinpath {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-splitpath {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-forkpath {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-refresh {
+  &:before, &.right:after {
+    content: "↻";
+  }
+}
+
+.ss-sync {
+  &:before, &.right:after {
+    content: "🗘";
+  }
+}
+
+.ss-wifi {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-connection {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-file {
+  &:before, &.right:after {
+    content: "📄";
+  }
+}
+
+.ss-files {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-folder {
+  &:before, &.right:after {
+    content: "📁";
+  }
+}
+
+.ss-anchor {
+  &:before, &.right:after {
+    content: "⚓";
+  }
+}
+
+.ss-print {
+  &:before, &.right:after {
+    content: "⎙";
+  }
+}
+
+.ss-list {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-starlist {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-layout {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-twoup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-threeup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-fourup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-action {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-expand {
+  &:before, &.right:after {
+    content: "⤢";
+  }
+}
+
+.ss-contract {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-lifepreserver {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-help {
+  &:before, &.right:after {
+    content: "❓";
+  }
+}
+
+.ss-info {
+  &:before, &.right:after {
+    content: "ℹ";
+  }
+}
+
+.ss-alert {
+  &:before, &.right:after {
+    content: "⚠";
+  }
+}
+
+.ss-plus {
+  &:before, &.right:after {
+    content: "+";
+  }
+}
+
+.ss-hyphen {
+  &:before, &.right:after {
+    content: "-";
+  }
+}
+
+.ss-check {
+  &:before, &.right:after {
+    content: "✓";
+  }
+}
+
+.ss-fish {
+  &:before, &.right:after {
+    content: "🐟";
+  }
+}
+
+.ss-whale {
+  &:before, &.right:after {
+    content: "🐋";
+  }
+}
+
+.ss-bird {
+  &:before, &.right:after {
+    content: "🐦";
+  }
+}
+
+.ss-pawprint {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bone {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tree {
+  &:before, &.right:after {
+    content: "🌲";
+  }
+}
+
+.ss-flower {
+  &:before, &.right:after {
+    content: "⚘";
+  }
+}
+
+.ss-gem {
+  &:before, &.right:after {
+    content: "💎";
+  }
+}
+
+.ss-mountains {
+  &:before, &.right:after {
+    content: "⛰";
+  }
+}
+
+.ss-settings {
+  &:before, &.right:after {
+    content: "⚙";
+  }
+}
+
+.ss-dashboard {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-dial {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-notifications {
+  &:before, &.right:after {
+    content: "🔔";
+  }
+}
+
+.ss-toggles {
+  &:before, &.right:after {
+    content: "🎚";
+  }
+}
+
+.ss-switch {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-brightness {
+  &:before, &.right:after {
+    content: "🔆";
+  }
+}
+
+.ss-contrast {
+  &:before, &.right:after {
+    content: "◐";
+  }
+}
+
+.ss-flash {
+  &:before, &.right:after {
+    content: "⌁";
+  }
+}
+
+.ss-magnet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-level {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-toolbox {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-hammer {
+  &:before, &.right:after {
+    content: "🔨";
+  }
+}
+
+.ss-wrench {
+  &:before, &.right:after {
+    content: "🔧";
+  }
+}
+
+.ss-nut {
+  &:before, &.right:after {
+    content: "🔩";
+  }
+}
+
+.ss-screw {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-clock {
+  &:before, &.right:after {
+    content: "⏲";
+  }
+}
+
+.ss-stopwatch {
+  &:before, &.right:after {
+    content: "⏱";
+  }
+}
+
+.ss-alarmclock {
+  &:before, &.right:after {
+    content: "⏰";
+  }
+}
+
+.ss-counterclockwise {
+  &:before, &.right:after {
+    content: "⥀";
+  }
+}
+
+.ss-calendar {
+  &:before, &.right:after {
+    content: "📅";
+  }
+}
+
+.ss-food {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-egg {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-chickenleg {
+  &:before, &.right:after {
+    content: "🍗";
+  }
+}
+
+.ss-pizza {
+  &:before, &.right:after {
+    content: "🍕";
+  }
+}
+
+.ss-birthdaycake {
+  &:before, &.right:after {
+    content: "🎂";
+  }
+}
+
+.ss-icecream {
+  &:before, &.right:after {
+    content: "🍨";
+  }
+}
+
+.ss-popsicle {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-coffee {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-mug {
+  &:before, &.right:after {
+    content: "☕";
+  }
+}
+
+.ss-beer {
+  &:before, &.right:after {
+    content: "🍺";
+  }
+}
+
+.ss-bottle {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-wineglass {
+  &:before, &.right:after {
+    content: "🍷";
+  }
+}
+
+.ss-wine {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cocktail {
+  &:before, &.right:after {
+    content: "🍸";
+  }
+}
+
+.ss-cup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-waterbottle {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-utensils {
+  &:before, &.right:after {
+    content: "🍴";
+  }
+}
+
+.ss-measuringcup {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-helmet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-graduationcap {
+  &:before, &.right:after {
+    content: "🎓";
+  }
+}
+
+.ss-glasses {
+  &:before, &.right:after {
+    content: "👓";
+  }
+}
+
+.ss-sunglasses {
+  &:before, &.right:after {
+    content: "🕶";
+  }
+}
+
+.ss-tie {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bowtie {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tshirt {
+  &:before, &.right:after {
+    content: "👕";
+  }
+}
+
+.ss-jersey {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-sock {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-handbag {
+  &:before, &.right:after {
+    content: "👜";
+  }
+}
+
+.ss-briefcase {
+  &:before, &.right:after {
+    content: "💼";
+  }
+}
+
+.ss-messengerbag {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-hanger {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-safetypin {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-thermometer {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-cloud {
+  &:before, &.right:after {
+    content: "☁";
+  }
+}
+
+.ss-sun {
+  &:before, &.right:after {
+    content: "☀";
+  }
+}
+
+.ss-partlycloudy {
+  &:before, &.right:after {
+    content: "⛅";
+  }
+}
+
+.ss-rain {
+  &:before, &.right:after {
+    content: "🌧";
+  }
+}
+
+.ss-thunderstorm {
+  &:before, &.right:after {
+    content: "⛈";
+  }
+}
+
+.ss-snow {
+  &:before, &.right:after {
+    content: "🌨";
+  }
+}
+
+.ss-umbrella {
+  &:before, &.right:after {
+    content: "☂";
+  }
+}
+
+.ss-crescentmoon {
+  &:before, &.right:after {
+    content: "🌙";
+  }
+}
+
+.ss-planet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-recycle {
+  &:before, &.right:after {
+    content: "♲";
+  }
+}
+
+.ss-outlet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-car {
+  &:before, &.right:after {
+    content: "🚘";
+  }
+}
+
+.ss-train {
+  &:before, &.right:after {
+    content: "🚆";
+  }
+}
+
+.ss-bus {
+  &:before, &.right:after {
+    content: "🚍";
+  }
+}
+
+.ss-trailer {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-plane {
+  &:before, &.right:after {
+    content: "✈";
+  }
+}
+
+.ss-boat {
+  &:before, &.right:after {
+    content: "🚢";
+  }
+}
+
+.ss-sailboat {
+  &:before, &.right:after {
+    content: "⛵";
+  }
+}
+
+.ss-boat {
+  &:before, &.right:after {
+    content: "🚢";
+  }
+}
+
+.ss-schooner {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-rocket {
+  &:before, &.right:after {
+    content: "🚀";
+  }
+}
+
+.ss-satellite {
+  &:before, &.right:after {
+    content: "🛰";
+  }
+}
+
+.ss-ufo {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-helm {
+  &:before, &.right:after {
+    content: "⎈";
+  }
+}
+
+.ss-fuel {
+  &:before, &.right:after {
+    content: "⛽";
+  }
+}
+
+.ss-firehydrant {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-theatre {
+  &:before, &.right:after {
+    content: "🎭";
+  }
+}
+
+.ss-ticket {
+  &:before, &.right:after {
+    content: "🎫";
+  }
+}
+
+.ss-golf {
+  &:before, &.right:after {
+    content: "⛳";
+  }
+}
+
+.ss-golfshot {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-basketball {
+  &:before, &.right:after {
+    content: "🏀";
+  }
+}
+
+.ss-hockeymask {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-billiards {
+  &:before, &.right:after {
+    content: "🎱";
+  }
+}
+
+.ss-baseball {
+  &:before, &.right:after {
+    content: "⚾";
+  }
+}
+
+.ss-baseballfield {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tennis {
+  &:before, &.right:after {
+    content: "🎾";
+  }
+}
+
+.ss-tabletennis {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-boxing {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-bowling {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-football {
+  &:before, &.right:after {
+    content: "🏈";
+  }
+}
+
+.ss-soccer {
+  &:before, &.right:after {
+    content: "⚽";
+  }
+}
+
+.ss-dumbbell {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-fishhook {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-gameplan {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-hiker {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-runner {
+  &:before, &.right:after {
+    content: "🏃";
+  }
+}
+
+.ss-pedestrian {
+  &:before, &.right:after {
+    content: "🚶";
+  }
+}
+
+.ss-callbell {
+  &:before, &.right:after {
+    content: "🛎";
+  }
+}
+
+.ss-shower {
+  &:before, &.right:after {
+    content: "🚿";
+  }
+}
+
+.ss-bandage {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pill {
+  &:before, &.right:after {
+    content: "💊";
+  }
+}
+
+.ss-flask {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-testtube {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pulse {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-up {
+  &:before, &.right:after {
+    content: "⬆";
+  }
+}
+
+.ss-right {
+  &:before, &.right:after {
+    content: "➡";
+  }
+}
+
+.ss-down {
+  &:before, &.right:after {
+    content: "⬇";
+  }
+}
+
+.ss-left {
+  &:before, &.right:after {
+    content: "⬅";
+  }
+}
+
+.ss-rightward {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-leftward {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-squiggle {
+  &:before, &.right:after {
+    content: "⇝";
+  }
+}
+
+.ss-retweet {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+/* This triggers a redraw in IE to Fix IE8"s :before content rendering. */
+
+html:hover [class^="ss-"] {
+  -ms-zoom: 1;
+}
+
+.ss-icon {
+  font-family: "SSSocial";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+
+  &.ss-social, &.ss-social-circle {
+    font-family: "SSSocial";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    white-space: nowrap;
+    /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+[class^="ss-"]:before, [class*=" ss-"]:before, [class^="ss-"][class*=" ss-social"]:before, [class*=" ss-"][class*=" ss-social"]:before, [class^="ss-"].right:after, [class*=" ss-"].right:after, [class^="ss-"][class*=" ss-social"].right:after, [class*=" ss-"][class*=" ss-social"].right:after {
+  font-family: "SSSocial";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+.ss-icon.ss-social-circle, [class^="ss-"].ss-social-circle:before, [class*=" ss-"].ss-social-circle:before, [class^="ss-"].ss-social-circle.right:after, [class*=" ss-"].ss-social-circle.right:after {
+  font-weight: bold;
+}
+
+[class^="ss-"].right:before, [class*=" ss-"].right:before {
+  display: none;
+  content: "";
+}
+
+.ss-facebook {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-twitter {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-linkedin {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-googleplus {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-tumblr {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-wordpress {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-blogger {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-posterous {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-youtube {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-vimeo {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-flickr {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-instagram {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-pinterest {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-svpply {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-readmill {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-dropbox {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-dribbble {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-behance {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-github {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-octocat {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-stackoverflow {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-paypal {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-kickstarter {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-foursquare {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-skype {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-rdio {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-spotify {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-lastfm {
+  &:before, &.right:after {
+    content: "";
+  }
+}
+
+.ss-mail {
+  &:before, &.right:after {
+    content: "✉";
+  }
+}
+
+.ss-like {
+  &:before, &.right:after {
+    content: "👍";
+  }
+}
+
+.ss-rss {
+  &:before, &.right:after {
+    content: "";
+  }
+}

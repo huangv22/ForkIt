@@ -1,0 +1,78 @@
+= content_for :stylesheets, stylesheet_link_tag('prototype')
+
+/ Note: http://norecipes.com/tonkotsu-miso-ramen-recipe/
+/ Should allow links to other recipes as reference; eg. Tonkotsu Base recipe needed for
+/ tonkotsu broth recipe
+.recipe
+  h3.recipe__title contenteditable="true" Ramen (Batch #: 1)
+
+  a.recipe__new_batch New Batch
+
+  section.recipe__section.recipe__ingredients_section
+    h4.recipe__section_heading Tonkotsu Ramen Broth
+
+    ul.recipe__list.recipe__ingredient_list
+      li.recipe__list_item.recipe__ingredient
+        | 2 1/2 C <a href="#" class="recipe__link">Tonkotsu Base</a>
+      li.recipe__list_item.recipe__ingredient 2 Tbs white miso
+      li.recipe__list_item.recipe__ingredient 1 Tbs tahini
+      li.recipe__list_item.recipe__ingredient 2 tsp sesame seed oil
+      li.recipe__list_item.recipe__ingredient 2 cloves garlic grated or pressed
+      li.recipe__list_item.recipe__ingredient 1/2 C water
+      li.recipe__list_item.recipe__ingredient 2 Tbs pork fat minced (it’s easier to mince when it’s cold)
+      li.recipe__list_item.recipe__ingredient 1 Tbs ground sesame seeds
+
+  section.recipe__section.recipe__cooking_steps_section
+    h4.recipe__section_heading Cooking Steps
+
+    ul.recipe__list.recipe__cooking_step_list
+      li.recipe__list_item.recipe__cooking_step In a medium saucepan, heat the Tonkotsu Base
+      li.recipe__list_item.recipe__cooking_step Combine the miso, tahini, sesame oil, and garlic in small bowl, then whisk in the water
+      li.recipe__list_item.recipe__cooking_step Pour this mixture into the hot Tonkotsu Base and whisk together
+      li.recipe__list_item.recipe__cooking_step When it is smooth and creamy and there are no chunks left, add the minced pork fat and whisk it in
+      li.recipe__list_item.recipe__cooking_step Taste for salt and add salt to taste. If the broth is too concentrated for your tastes, you can thin it out with water
+
+  section.recipe__notes
+    textarea rows="10" cols="38"
+
+  button.recipe__save_btn type="submit" Save Notes
+
+.recipe
+  h3.recipe__title contenteditable="true" Ramen (Batch #: 2)
+
+  section.recipe__section.recipe__ingredients_section
+    h4.recipe__section_heading Ingredients
+
+    a.recipe__add_button href="#" data-target=".recipe__ingredient" Add Ingredient
+
+    ul.recipe__list.recipe__ingredient_list
+      li.recipe__list_item.recipe__ingredient
+        | 2 1/2 C <a href="#" class="recipe__link">Tonkotsu Base</a>
+      li.recipe__list_item.recipe__ingredient 2 Tbs white miso
+      li.recipe__list_item.recipe__ingredient 1 Tbs tahini
+      li.recipe__list_item.recipe__ingredient 2 tsp sesame seed oil
+      li.recipe__list_item.recipe__ingredient 2 cloves garlic grated or pressed
+      li.recipe__list_item.recipe__ingredient 1/2 C water
+      li.recipe__list_item.recipe__ingredient 2 Tbs pork fat minced (it’s easier to mince when it’s cold)
+      li.recipe__list_item.recipe__ingredient 1 Tbs ground sesame seeds
+
+      li.recipe__list_item.recipe__ingredient
+        input.recipe__input type="text" placeholder="Enter Ingredient"
+
+  section.recipe__section.recipe__cooking_steps_section
+    h4.recipe__section_heading Cooking Steps
+
+    a.recipe__add_button href="#" data-target=".recipe__cooking_step" Add Cooking Step
+
+    ul.recipe__list.recipe__cooking_step_list
+      li.recipe__list_item.recipe__cooking_step contenteditable="true" In a medium saucepan, heat the Tonkotsu Base
+      li.recipe__list_item.recipe__cooking_step Combine the miso, tahini, sesame oil, and garlic in small bowl, then whisk in the water
+      li.recipe__list_item.recipe__cooking_step Pour this mixture into the hot Tonkotsu Base and whisk together
+      li.recipe__list_item.recipe__cooking_step When it is smooth and creamy and there are no chunks left, add the minced pork fat and whisk it in
+      li.recipe__list_item.recipe__cooking_step Taste for salt and add salt to taste. If the broth is too concentrated for your tastes, you can thin it out with water
+      li.recipe__list_item.recipe__cooking_step contenteditable="true"
+        input.recipe__input type="text" placeholder="Enter Cooking Step"
+
+  button.recipe__save_btn type="submit" Save Recipe
+
+= content_for :scripts, javascript_include_tag('prototype')

@@ -1,0 +1,68 @@
+/*
+		ForkIt Prototype - Styling
+*/
+
+@import "bourbon";
+
+.recipe {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 400px;
+  margin-right: 1.5em;
+  padding: 1em;
+}
+
+.recipe__title {
+  margin-top: 0;
+}
+
+.recipe__section {
+  overflow: hidden;
+  margin: 1.5em 0;
+}
+
+.recipe__input {
+  border: 1px solid #ddd;
+  height: 2em;
+  padding: 0.5em;
+  font-size: percentage(14px/16px);
+  width: 100%;
+
+  &::placeholder {
+    font-style: italic;
+  }
+}
+
+.recipe__section_heading {
+  float: left;
+  margin-top: 0.5em;
+}
+
+.recipe__list {
+  clear: both;
+}
+
+.recipe__list_item {
+  font-size: percentage(14px/16px);
+  padding: 5px 0;
+}
+
+.recipe__link {
+  color: #11b4d1;
+}
+
+.recipe__add_button {
+  background: #666;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  color: #fff;
+  float: right;
+  font-size: percentage(13px/16px);
+  padding: 0.5em 1em;
+}
+
+.recipe__save_btn {
+  border-radius: 5px;
+  font-size: percentage(12px/16px);
+}

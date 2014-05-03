@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title ForkIt
+    = stylesheet_link_tag "application", media: "all"
+
+    = yield :stylesheets
+
+    = csrf_meta_tags
+
+  body
+    = render partial: '/layouts/includes/header'
+
+    section.site__wrapper
+      = yield
+
+    = render partial: '/layouts/includes/footer'
+
+    = javascript_include_tag "application"
+
+    = yield :scripts
