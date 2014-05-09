@@ -1,6 +1,20 @@
 # Meeting Notes 
 Forkit meeting notes
 
+## 5/3/2014
+Location: KaffeHaus, SM
+
+### Decisions Made:
+* Start with Mobile Use Case
+
+Top priorities to design for:
+1. View Recipe/Ingredient List
+2. Allow Editing and Versioning for Batches
+3. Information Hierarchy for Notes/Tagline
+4. Interation of how to navigate among batches in a diesh
+5. View to Compare different batches
+
+
 ## 4/22/2014
 Location: Phone Call
 
