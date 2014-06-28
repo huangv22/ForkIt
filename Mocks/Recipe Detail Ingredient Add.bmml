@@ -1,0 +1,350 @@
+<mockup version="1.0" skin="wireframe" fontFace="Arial" measuredW="381" measuredH="706" mockupW="321" mockupH="586">
+  <controls>
+    <control controlID="0" controlTypeID="__group__" x="60" y="120" w="320" h="568" measuredW="320" measuredH="568" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>iPhone%205%20Template%206</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="320" h="568" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="0">
+          <controlProperties>
+            <backgroundAlpha>0</backgroundAlpha>
+            <borderColor>3355443</borderColor>
+            <borderStyle>square</borderStyle>
+            <color>15658734</color>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="71" y="135" w="-1" h="-1" measuredW="245" measuredH="29" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Oven%20Roasted%20Frog</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="88" y="164" w="276" h="22" measuredW="200" measuredH="140" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <text>Batch%20VH002</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="69" y="121" w="301" h="53" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>13421772</borderColor>
+        <color>14540253</color>
+        <italic>true</italic>
+        <text>Notes%3A%20Try%20substituting%20kale%20instead%20of%20spinach%20to%20get%20more%20crunch.</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="348" y="150" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>%24ACCOUNT/assets/icon_pencil.png%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Paragraph" x="71" y="223" w="293" h="17" measuredW="200" measuredH="80" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>6710886</color>
+        <text>Ingredients</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="__group__" x="60" y="243" w="320" h="40" measuredW="320" measuredH="40" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="320" h="40" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="17">
+          <controlProperties>
+            <borderColor>15658734</borderColor>
+            <borderStyle>none</borderStyle>
+            <color>14540253</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="19" y="10" w="11" h="-1" measuredW="11" measuredH="20" zOrder="1" locked="false" isInGroup="17">
+          <controlProperties>
+            <size>18</size>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="53" y="10" w="259" h="24" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="17">
+          <controlProperties>
+            <size>18</size>
+            <text>Organic%20large%20frog</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Arrow" x="42" y="0" w="10" h="40" measuredW="150" measuredH="100" zOrder="3" locked="false" isInGroup="17">
+          <controlProperties>
+            <color>13421772</color>
+            <leftArrow>false</leftArrow>
+            <markup>false</markup>
+            <rightArrow>false</rightArrow>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="18" controlTypeID="__group__" x="60" y="283" w="320" h="40" measuredW="320" measuredH="40" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C163%2C320%2C203%22%20href%3D%22Recipe%2520Detail%2520Swap%2520Ingredient.bmml%22%20alt%3D%22Recipe%20Detail%20Swap%20Ingredient%22%20id%3D%2218%22/%3E</map>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="320" h="40" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="18">
+          <controlProperties>
+            <borderColor>15658734</borderColor>
+            <borderStyle>none</borderStyle>
+            <color>14540253</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="19" y="10" w="11" h="-1" measuredW="11" measuredH="20" zOrder="1" locked="false" isInGroup="18">
+          <controlProperties>
+            <size>18</size>
+            <text>2</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="53" y="10" w="259" h="24" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="18">
+          <controlProperties>
+            <size>18</size>
+            <text>Cloves%20of%20garlic</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Arrow" x="42" y="0" w="10" h="40" measuredW="150" measuredH="100" zOrder="3" locked="false" isInGroup="18">
+          <controlProperties>
+            <color>13421772</color>
+            <leftArrow>false</leftArrow>
+            <markup>false</markup>
+            <rightArrow>false</rightArrow>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="19" controlTypeID="__group__" x="60" y="322" w="320" h="40" measuredW="320" measuredH="40" zOrder="6" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="320" h="40" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="19">
+          <controlProperties>
+            <borderColor>15658734</borderColor>
+            <borderStyle>none</borderStyle>
+            <color>14540253</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="19" y="10" w="11" h="-1" measuredW="11" measuredH="20" zOrder="1" locked="false" isInGroup="19">
+          <controlProperties>
+            <size>18</size>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="53" y="10" w="259" h="24" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="19">
+          <controlProperties>
+            <size>18</size>
+            <text>Bundle%20of%20potatoes</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Arrow" x="42" y="0" w="10" h="40" measuredW="150" measuredH="100" zOrder="3" locked="false" isInGroup="19">
+          <controlProperties>
+            <color>13421772</color>
+            <leftArrow>false</leftArrow>
+            <markup>false</markup>
+            <rightArrow>false</rightArrow>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Paragraph" x="71" y="429" w="293" h="17" measuredW="200" measuredH="80" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>6710886</color>
+        <text>Recipe</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="__group__" x="60" y="452" w="320" h="40" measuredW="320" measuredH="40" zOrder="8" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="320" h="40" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="22">
+          <controlProperties>
+            <borderColor>15658734</borderColor>
+            <borderStyle>none</borderStyle>
+            <color>14540253</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="19" y="10" w="11" h="-1" measuredW="11" measuredH="20" zOrder="1" locked="false" isInGroup="22">
+          <controlProperties>
+            <size>18</size>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="53" y="6" w="259" h="32" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="22">
+          <controlProperties>
+            <size>13</size>
+            <text>Peel%20and%20cut%20potatoes%20into%20quarters</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Arrow" x="42" y="0" w="10" h="40" measuredW="150" measuredH="100" zOrder="3" locked="false" isInGroup="22">
+          <controlProperties>
+            <color>13421772</color>
+            <leftArrow>false</leftArrow>
+            <markup>false</markup>
+            <rightArrow>false</rightArrow>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="23" controlTypeID="__group__" x="60" y="362" w="320" h="40" measuredW="320" measuredH="40" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Recipe%20Detail%20Ingredient%20Add%20Input%26bm%3BRecipe%20Detail%20Ingredient%20Add%20Input.bmml%26bm%3BRecipe%20Detail%20Ingredient%20Add%20Input.bmml%26bm%3BRecipe%20Detail%20Ingredient%20Add%20Input.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C242%2C320%2C282%22%20href%3D%22Recipe%2520Detail%2520Ingredient%2520Add%2520Input.bmml%22%20alt%3D%22Recipe%20Detail%20Ingredient%20Add%20Input%22%20id%3D%2223%22/%3E</map>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="320" h="40" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="23">
+          <controlProperties>
+            <borderColor>15658734</borderColor>
+            <borderStyle>none</borderStyle>
+            <color>15658734</color>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Arrow" x="42" y="0" w="10" h="40" measuredW="150" measuredH="100" zOrder="1" locked="false" isInGroup="23">
+          <controlProperties>
+            <color>13421772</color>
+            <leftArrow>false</leftArrow>
+            <markup>false</markup>
+            <rightArrow>false</rightArrow>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="24" controlTypeID="__group__" x="60" y="491" w="320" h="40" measuredW="320" measuredH="40" zOrder="10" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="320" h="40" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="24">
+          <controlProperties>
+            <borderColor>15658734</borderColor>
+            <borderStyle>none</borderStyle>
+            <color>14540253</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="19" y="10" w="11" h="-1" measuredW="11" measuredH="20" zOrder="1" locked="false" isInGroup="24">
+          <controlProperties>
+            <size>18</size>
+            <text>2</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="53" y="6" w="259" h="32" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="24">
+          <controlProperties>
+            <size>13</size>
+            <text>Peel%20and%20breakdown%20the%20galic%20into%20small%201mm%20squares</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Arrow" x="42" y="0" w="10" h="40" measuredW="150" measuredH="100" zOrder="3" locked="false" isInGroup="24">
+          <controlProperties>
+            <color>13421772</color>
+            <leftArrow>false</leftArrow>
+            <markup>false</markup>
+            <rightArrow>false</rightArrow>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="25" controlTypeID="__group__" x="60" y="531" w="320" h="79" measuredW="320" measuredH="79" zOrder="11" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="320" h="40" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="25">
+          <controlProperties>
+            <borderColor>15658734</borderColor>
+            <borderStyle>none</borderStyle>
+            <color>14540253</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="19" y="10" w="11" h="-1" measuredW="11" measuredH="20" zOrder="1" locked="false" isInGroup="25">
+          <controlProperties>
+            <size>18</size>
+            <text>3</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="53" y="6" w="259" h="32" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="25">
+          <controlProperties>
+            <size>13</size>
+            <text>Debone%20the%20Frog</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Arrow" x="42" y="0" w="10" h="40" measuredW="150" measuredH="100" zOrder="3" locked="false" isInGroup="25">
+          <controlProperties>
+            <color>13421772</color>
+            <leftArrow>false</leftArrow>
+            <markup>false</markup>
+            <rightArrow>false</rightArrow>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="39" w="320" h="40" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="25">
+          <controlProperties>
+            <borderColor>15658734</borderColor>
+            <borderStyle>none</borderStyle>
+            <color>14540253</color>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::SubTitle" x="19" y="49" w="11" h="-1" measuredW="11" measuredH="20" zOrder="5" locked="false" isInGroup="25">
+          <controlProperties>
+            <size>18</size>
+            <text>4</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Paragraph" x="53" y="45" w="259" h="32" measuredW="200" measuredH="80" zOrder="6" locked="false" isInGroup="25">
+          <controlProperties>
+            <size>13</size>
+            <text>Stuff%20the%20minced%20garlic%20between%20the%20skin%20and%20the%20meat%20of%20the%20frog</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Arrow" x="42" y="39" w="10" h="40" measuredW="150" measuredH="100" zOrder="7" locked="false" isInGroup="25">
+          <controlProperties>
+            <color>13421772</color>
+            <leftArrow>false</leftArrow>
+            <markup>false</markup>
+            <rightArrow>false</rightArrow>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="30" controlTypeID="__group__" x="118" y="184" w="188" h="31" measuredW="188" measuredH="31" zOrder="12" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="122" y="0" w="66" h="31" measuredW="66" measuredH="24" zOrder="0" locked="false" isInGroup="30">
+          <controlProperties>
+            <icon>%24ACCOUNT/assets/icon_copy.png%7Cxsmall</icon>
+            <size>11</size>
+            <text>Copy</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="0" y="0" w="66" h="31" measuredW="66" measuredH="24" zOrder="1" locked="false" isInGroup="30">
+          <controlProperties>
+            <icon>%24ACCOUNT/assets/icon_heart-o.png%7Cxsmall</icon>
+            <size>11</size>
+            <text>Save</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="66" y="0" w="56" h="31" measuredW="56" measuredH="24" zOrder="2" locked="false" isInGroup="30">
+          <controlProperties>
+            <icon>CameraIcon%7Cxsmall</icon>
+            <size>11</size>
+            <text>Pic</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Icon" x="71" y="167" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <icon>%24ACCOUNT/assets/icon_flask.png%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::TextArea" x="63" y="368" w="40" h="30" measuredW="200" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::TextArea" x="111" y="368" w="259" h="30" measuredW="200" measuredH="140" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::iPhoneKeyboard" x="60" y="446" w="321" h="260" measuredW="227" measuredH="160" zOrder="15" locked="false" isInGroup="-1"/>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::TextArea" x="60" y="120" w="320" h="72" measuredW="200" measuredH="140" zOrder="16" locked="false" isInGroup="-1"/>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Link" x="60" y="129" w="-1" h="-1" measuredW="31" measuredH="18" zOrder="20" locked="false" isInGroup="-1"/>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Arrow" x="65" y="373" w="10" h="20" measuredW="150" measuredH="100" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <leftArrow>false</leftArrow>
+        <markup>false</markup>
+        <rightArrow>false</rightArrow>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
