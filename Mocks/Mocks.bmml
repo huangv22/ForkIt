@@ -1,0 +1,101 @@
+<mockup version="1.0" skin="wireframe" fontFace="Arial" measuredW="730" measuredH="688" mockupW="670" mockupH="568">
+  <controls>
+    <control controlID="0" controlTypeID="__group__" x="60" y="120" w="320" h="568" measuredW="320" measuredH="568" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>iPhone%205%20Template%206</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="320" h="568" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="0">
+          <controlProperties>
+            <backgroundAlpha>0</backgroundAlpha>
+            <borderColor>3355443</borderColor>
+            <borderStyle>square</borderStyle>
+            <color>15658734</color>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="71" y="135" w="-1" h="-1" measuredW="245" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Oven%20Roasted%20Frog</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="82" y="164" w="276" h="22" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <text>Batch%20VH002</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="71" y="201" w="293" h="49" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>13421772</borderColor>
+        <color>13421772</color>
+        <italic>true</italic>
+        <text>Notes%3A%20Try%20substituting%20kale%20instead%20of%20spinach%20to%20get%20more%20crunch.</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="342" y="228" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>%24ACCOUNT/assets/icon_pencil.png%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Paragraph" x="71" y="263" w="293" h="17" measuredW="200" measuredH="80" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>6710886</color>
+        <text>Ingredients</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="__group__" x="586" y="169" w="140" h="20" measuredW="140" measuredH="20" zOrder="6" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="-1" h="-1" measuredW="11" measuredH="20" zOrder="0" locked="false" isInGroup="9">
+          <controlProperties>
+            <size>18</size>
+            <text>2</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="20" y="3" w="120" h="14" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="9">
+          <controlProperties>
+            <text>bundles%20of%20potatoes</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="10" controlTypeID="__group__" x="560" y="275" w="140" h="20" measuredW="140" measuredH="20" zOrder="7" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="-1" h="-1" measuredW="11" measuredH="20" zOrder="0" locked="false" isInGroup="10">
+          <controlProperties>
+            <size>18</size>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="20" y="3" w="120" h="14" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="10">
+          <controlProperties>
+            <text>Clove%20of%20garlic</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Canvas" x="410" y="361" w="320" h="40" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::SubTitle" x="429" y="371" w="-1" h="-1" measuredW="11" measuredH="20" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>1</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Paragraph" x="463" y="367" w="259" h="29" measuredW="200" measuredH="80" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Organic%20Large%20Frog</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Arrow" x="452" y="361" w="10" h="40" measuredW="150" measuredH="100" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>false</leftArrow>
+        <markup>false</markup>
+        <rightArrow>false</rightArrow>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
