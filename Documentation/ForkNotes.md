@@ -1,6 +1,62 @@
 # Meeting Notes 
 Forkit meeting notes
 
+## 6/27/2014
+
+### To Dos
+* Design
+** Information Hierarchy for Notes/Tagline
+** Interation of how to navigate among batches in a dish
+** View to Compare different batches 
+** Focus on transitiong between mockups
+
+#### Recipe Detail functionality
+## Must Haves
+* Name
+* Batch Number
+* Overall recipe notes
+* Action Items
+** Start/Bookmarks
+** New Batch
+* Ingredients section
+** Separate field for qty and item
+** Add ingredient
+** Action for each ingredient
+*** Delete
+*** Edit
+
+* Recipe Section
+** Steps are auto populated
+** Add Steps
+** Edit
+** Delete Steps
+
+## Nices to Have
+* Ability to take and add a picture to the recipe
+* Receipe: Move Steps on long tap
+
+## Not Doing 
+* Recommendations
+* No Social
+* Dealing with measure words
+
+## Requires User Testing (to validate use case)
+*** Ability to comment on ingredient 
+*** Ability to substitute in line an ingredient for another (Requires Testing)
+
+### Sharing
+#### Ted Demo
+* Clicking on new batch clones
+* Edit functional exists for the cloned batch
+* Need button to add an ingredient
+
+#### Vince Demo
+* Like buttons on top
+* Mine/Yours recipe: 
+** Mine: Star
+** Yours: Bookmark
+
+
 ## 5/3/2014
 Location: KaffeHaus, SM
 
@@ -11,7 +67,7 @@ Top priorities to design for:
 1. View Recipe/Ingredient List
 2. Allow Editing and Versioning for Batches
 3. Information Hierarchy for Notes/Tagline
-4. Interation of how to navigate among batches in a diesh
+4. Interation of how to navigate among batches in a dish
 5. View to Compare different batches
 
 
