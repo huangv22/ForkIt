@@ -1,6 +1,15 @@
 # Meeting Notes
 Forkit meeting notes
 
+## 7/1/2014
+## To Dos
+* Vince: Look into how to get Ted icon pack
+# Ted: Come up with new Designs
+
+### Vince Demo
+* Change sorting for batching
+
+
 ## 6/27/2014
 
 ### To Dos
@@ -33,7 +42,7 @@ Forkit meeting notes
 
 ## Nices to Have
 * Ability to take and add a picture to the recipe
-* Receipe: Move Steps on long tap
+* Recipe: Move Steps on long tap
 
 ## Not Doing
 * Recommendations

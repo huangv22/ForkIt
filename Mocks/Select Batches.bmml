@@ -19,7 +19,7 @@
         <color>14540253</color>
         <italic>true</italic>
         <size>11</size>
-        <text>Created%3A%201/2/2014%0ANotes%3A%20Original%20Recipe</text>
+        <text>Created%3A%201/2/2014%0ANotes%3A%20Original%20Recipe%0ABy%3A%20Froggie%20Jones</text>
       </controlProperties>
     </control>
     <control controlID="32" controlTypeID="com.balsamiq.mockups::Icon" x="71" y="187" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
@@ -134,7 +134,7 @@
       <controlProperties>
         <italic>true</italic>
         <size>18</size>
-        <text>Create%20Batch%20ORF004</text>
+        <text>Create%20Batch%20ORF005</text>
       </controlProperties>
     </control>
     <control controlID="58" controlTypeID="__group__" x="71" y="321" w="308" h="79" measuredW="308" measuredH="79" zOrder="8" locked="false" isInGroup="-1">
