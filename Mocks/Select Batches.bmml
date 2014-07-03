@@ -1,0 +1,176 @@
+<mockup version="1.0" skin="wireframe" fontFace="Arial" measuredW="380" measuredH="688" mockupW="320" mockupH="569">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="71" y="155" w="-1" h="-1" measuredW="102" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Batches</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="103" y="188" w="276" h="27" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <size>18</size>
+        <text>Oven%20Roasted%20Frog</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="120" y="258" w="245" h="53" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>13421772</borderColor>
+        <color>14540253</color>
+        <italic>true</italic>
+        <size>11</size>
+        <text>Created%3A%201/2/2014%0ANotes%3A%20Original%20Recipe</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Icon" x="71" y="187" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <icon>FilterIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Component" x="60" y="120" w="320" h="568" measuredW="320" measuredH="568" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/symbols.bmml#iPhone 5 Template 6</src>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::RoundButton" x="71" y="234" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderColor>3355443</borderColor>
+        <shape>circle</shape>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Arrow" x="82" y="234" w="10" h="342" measuredW="150" measuredH="100" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>false</leftArrow>
+        <markup>false</markup>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Paragraph" x="120" y="238" w="259" h="24" measuredW="200" measuredH="80" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Batch%20ORF001</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Icon" x="341" y="230" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>14540253</color>
+        <icon>%24ACCOUNT/assets/icon_star.png%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Icon" x="341" y="321" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <icon>%24ACCOUNT/assets/icon_star.png%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::TextArea" x="120" y="441" w="245" h="27" measuredW="200" measuredH="140" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>13421772</borderColor>
+        <color>14540253</color>
+        <italic>true</italic>
+        <size>11</size>
+        <text>Created%3A%203/2/2014</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Paragraph" x="120" y="421" w="259" h="24" measuredW="200" measuredH="80" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Batch%20ORF003</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::RoundButton" x="71" y="415" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderColor>3355443</borderColor>
+        <shape>circle</shape>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Icon" x="341" y="415" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>13421772</color>
+        <icon>%24ACCOUNT/assets/icon_star.png%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::TextArea" x="120" y="512" w="245" h="49" measuredW="200" measuredH="140" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>13421772</borderColor>
+        <color>14540253</color>
+        <italic>true</italic>
+        <size>11</size>
+        <text>Created%3A%203/9/2014%0ANotes%3A%20100%21%20Keeping%20bones%20in%20expands%20the%20flavor.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Paragraph" x="120" y="492" w="259" h="24" measuredW="200" measuredH="80" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Batch%20ORF004</text>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::RoundButton" x="71" y="486" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderColor>3355443</borderColor>
+        <shape>circle</shape>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Icon" x="341" y="486" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>13421772</color>
+        <icon>%24ACCOUNT/assets/icon_star.png%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::RoundButton" x="71" y="576" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderColor>3355443</borderColor>
+        <icon>%24ACCOUNT/assets/icon_plus.png%7Csmall</icon>
+        <shape>circle</shape>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Paragraph" x="120" y="583" w="259" h="21" measuredW="200" measuredH="80" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <italic>true</italic>
+        <size>18</size>
+        <text>Create%20Batch%20ORF004</text>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="__group__" x="71" y="321" w="308" h="79" measuredW="308" measuredH="79" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Recipe%20Detail%26bm%3BRecipe%20Detail.bmml%26bm%3BRecipe%20Detail.bmml%26bm%3BRecipe%20Detail.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2211%2C202%2C319%2C281%22%20href%3D%22Recipe%2520Detail.bmml%22%20alt%3D%22Recipe%20Detail%22%20id%3D%2258%22/%3E</map>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextArea" x="49" y="26" w="245" h="53" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="58">
+          <controlProperties>
+            <borderColor>13421772</borderColor>
+            <color>14540253</color>
+            <italic>true</italic>
+            <size>11</size>
+            <text>Created%3A%203/1/2014%0ANotes%3A%20Try%20substituting%20kale%20instead%20of%20spinach%20to%20get%20more%20crunch.</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="49" y="6" w="259" h="24" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="58">
+          <controlProperties>
+            <size>18</size>
+            <text>Batch%20ORF002</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="2" locked="false" isInGroup="58">
+          <controlProperties>
+            <backgroundAlpha>1</backgroundAlpha>
+            <borderColor>3355443</borderColor>
+            <shape>circle</shape>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Component" x="60" y="119" w="320" h="21" measuredW="320" measuredH="21" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/symbols.bmml#Header</src>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
