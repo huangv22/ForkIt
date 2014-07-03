@@ -167,10 +167,20 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="59" controlTypeID="com.balsamiq.mockups::Component" x="60" y="119" w="320" h="21" measuredW="320" measuredH="21" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="60" controlTypeID="__group__" x="60" y="119" w="320" h="21" measuredW="320" measuredH="21" zOrder="21" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>./assets/symbols.bmml#Header</src>
+        <controlName>Header</controlName>
+        <href>Choose%20Dish%26bm%3BChoose%20Dish.bmml%26bm%3BChoose%20Dish.bmml%26bm%3BChoose%20Dish.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C0%2C320%2C21%22%20href%3D%22Choose%2520Dish.bmml%22%20alt%3D%22Choose%20Dish%22%20id%3D%2260%22/%3E</map>
       </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="320" h="21" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="60"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="0" y="0" w="59" h="21" measuredW="50" measuredH="24" zOrder="1" locked="false" isInGroup="60">
+          <controlProperties>
+            <text>Back</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
     </control>
   </controls>
 </mockup>
