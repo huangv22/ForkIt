@@ -1,13 +1,21 @@
 # Meeting Notes
 Forkit meeting notes
 
+7/16/2014
+# Recipe List
+  * Name of the recipe
+
+
 ## 7/1/2014
 ## To Dos
 * Vince: Look into how to get Ted icon pack
+  * https://github.com/djfpaagman/font-awesome-balsamiq/
 # Ted: Come up with new Designs
 
 ### Vince Demo
-* Change sorting for batching
+* Change sorting for batching screen
+* Vince Review Landing
+
 
 
 ## 6/27/2014
@@ -84,8 +92,8 @@ Top priorities to design for:
 Location: Phone Call
 
 ### To Do
-~~* Come up with user flows for base app
-~~* Think of core features for v1 of app
+~~* Come up with user flows for base app~~
+~~* Think of core features for v1 of app~~
 
 ### Notes
 * Features
