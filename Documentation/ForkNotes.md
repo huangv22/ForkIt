@@ -1,9 +1,14 @@
 # Meeting Notes
 Forkit meeting notes
 
-7/16/2014
-# Recipe List
-  * Name of the recipe
+## 7/16/2014
+## To Do
+* Start building
+
+## Overview
+* Recipe List, and list of batch versions should use a simple row/table
+
+
 
 
 ## 7/1/2014
