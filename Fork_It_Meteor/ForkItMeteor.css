@@ -1,1 +1,93 @@
+@import "https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css";
 /* CSS declarations go here */
+
+html {
+  box-sizing: border-box;
+}
+
+body, * {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 14px;
+  font-family: Georgia, Times New Roman, Times Roman, serif;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+input[type="text"]{
+  margin: 0px;
+}
+
+.recipe {
+  width: 320px;
+
+}
+
+.recipe__name {
+  border-top: 1px solid #ccc;
+}
+
+.recipe__batch {
+  color: #999;
+  font-style: italic;
+}
+
+.recipe__ingredient_input {
+  padding: 1.5rem 0;
+  background: transparent;
+}
+
+.recipe__ingredient {
+  border-top: 1px solid black;
+  background: #ccc;
+  width: 100%;
+}
+
+.recipe__ingredient--add:hover {
+  cursor: pointer;
+
+}
+.recipe__ingredient_qty, .recipe__ingredient_add_button {
+  width: 10%;
+  text-align: center;
+  border: none;
+  border-right: 1px solid black;
+}
+
+.recipe__ingredient_add_button {
+  display:inline-block;
+  padding: 1.5rem 0 ;
+}
+
+input[type="text"].recipe__ingredient_name {
+  margin-left:-4px;
+  width: 90%;
+  border: none;
+
+}
+
+/*.recipe__step {
+  list-style-position: inside;
+}
+*/
+
+ol.recipe__steps {
+  padding-left:10%;
+
+}
+
+.recipe__step_detail {
+  border: none;
+  border-left: 1px solid black;
+  width: 90%;
+
+}
