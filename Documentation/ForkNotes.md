@@ -1,14 +1,35 @@
-# Meeting Notes 
+# Meeting Notes
 Forkit meeting notes
+
+## 7/16/2014
+### To Do
+* Start building
+* Build a slide show (VH)
+  * Show the simple image with title and
+
+
+## Overview
+* Recipe List, and list of batch versions should use a simple row/table
+
+## 7/1/2014
+### To Dos
+* Vince: Look into how to get Ted icon pack
+  * https://github.com/djfpaagman/font-awesome-balsamiq/
+* Ted: Come up with new Designs
+
+### Update and sharing
+* Vince Demo
+  * Change sorting for batching screen
+  * Vince Review Landing
 
 ## 6/27/2014
 
 ### To Dos
 * Design
-** Information Hierarchy for Notes/Tagline
-** Interation of how to navigate among batches in a dish
-** View to Compare different batches 
-** Focus on transitiong between mockups
+  * Information Hierarchy for Notes/Tagline
+  * Interation of how to navigate among batches in a dish
+  * View to Compare different batches
+  * Focus on transitiong between mockups
 
 #### Recipe Detail functionality
 ## Must Haves
@@ -16,33 +37,33 @@ Forkit meeting notes
 * Batch Number
 * Overall recipe notes
 * Action Items
-** Start/Bookmarks
-** New Batch
+	* Start/Bookmarks
+	* New Batch
 * Ingredients section
-** Separate field for qty and item
-** Add ingredient
-** Action for each ingredient
-*** Delete
-*** Edit
+	* Separate field for qty and item
+	* Add ingredient
+	* Action for each ingredient
+		* Delete
+		* Edit
 
 * Recipe Section
-** Steps are auto populated
-** Add Steps
-** Edit
-** Delete Steps
+	* Steps are auto populated
+	* Add Steps
+	* Edit
+	* Delete Steps
 
 ## Nices to Have
 * Ability to take and add a picture to the recipe
-* Receipe: Move Steps on long tap
+* Recipe: Move Steps on long tap
 
-## Not Doing 
+## Not Doing
 * Recommendations
 * No Social
 * Dealing with measure words
 
 ## Requires User Testing (to validate use case)
-*** Ability to comment on ingredient 
-*** Ability to substitute in line an ingredient for another (Requires Testing)
+* Ability to comment on ingredient
+* Ability to substitute in line an ingredient for another (Requires Testing)
 
 ### Sharing
 #### Ted Demo
@@ -52,9 +73,9 @@ Forkit meeting notes
 
 #### Vince Demo
 * Like buttons on top
-* Mine/Yours recipe: 
-** Mine: Star
-** Yours: Bookmark
+* Mine/Yours recipe:
+	* Mine: Star
+	* Yours: Bookmark
 
 
 ## 5/3/2014
@@ -75,8 +96,8 @@ Top priorities to design for:
 Location: Phone Call
 
 ### To Do
-~~* Come up with user flows for base app
-~~* Think of core features for v1 of app
+~~* Come up with user flows for base app~~
+~~* Think of core features for v1 of app~~
 
 ### Notes
 * Features
@@ -89,7 +110,7 @@ Location: Phone Call
 
 * Open Questions
 	* Which media should we target? Desktop + Tablet? Depends on how people use the app - Recipe note-taking and documentation or as true recipe reference or both?
-	
+
 * Next Steps
 	* We have a good base for features and user flow, so let's try to mockup some rough designs on how this app interface will be.
 	* Ted - Will chat with my designer friend and run things by her to see what her thoughts and if she has ideas on the design
@@ -106,12 +127,12 @@ Scribe: Vince
 
 ### Notes
 * Weekly meetings via call. Physical meeting once every two weeks
-* Ted reached out to a few friends and received feedback. 
+* Ted reached out to a few friends and received feedback.
 	* Some people used spreadsheets
 	* Others used analog
 	* People are in pursuit of the *perfect* dish
 * Vince shared feedback around Jacky
-* Feature Idea: 
+* Feature Idea:
 	* Bookmarklet (HT: Sonja)
 * Product Idea:
 	* Start with the assumption that the user has already found a recipe.
@@ -133,7 +154,7 @@ Location: Gaslamp Cafe
 ### Notes
 * Where to get started
 	* Discussed three stages: (1) Selecting recipe, (2) Inspiration for tweaking, (3) Recording experiments
-	* Select a niche dish 
+	* Select a niche dish
 	* Reviewed GoogleTrends for interesting dish categories
 	* Vince brought up the idea of using Google Consumer Surveys as a way of finding potential dish [topics](http://www.google.com/trends/explore#q=pasta%20recipe%2C%20ribs%20recipe%2C%20wings%20recipe&geo=US&cmpt=q)
 * Positioning
