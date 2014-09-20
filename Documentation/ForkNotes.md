@@ -2,26 +2,25 @@
 Forkit meeting notes
 
 ## 7/16/2014
-## To Do
+### To Do
 * Start building
+* Build a slide show (VH)
+  * Show the simple image with title and
+
 
 ## Overview
 * Recipe List, and list of batch versions should use a simple row/table
 
-
-
-
 ## 7/1/2014
-## To Dos
+### To Dos
 * Vince: Look into how to get Ted icon pack
   * https://github.com/djfpaagman/font-awesome-balsamiq/
-# Ted: Come up with new Designs
+* Ted: Come up with new Designs
 
-### Vince Demo
-* Change sorting for batching screen
-* Vince Review Landing
-
-
+### Update and sharing
+* Vince Demo
+  * Change sorting for batching screen
+  * Vince Review Landing
 
 ## 6/27/2014
 
