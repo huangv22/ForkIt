@@ -1,0 +1,55 @@
+<head>
+  <title>ForkItMeteor</title>
+  <link rel="stylesheet" href="ForkItMeteor.css">
+</head>
+
+<body>
+  <div class="recipe">
+    <h1 class="recipe__name">Fried Chicken really long recipe name</h1>
+
+    <p class="recipe__batch">Batch VH002</p>
+
+    <form action="/SOMETHING" method="post" class="recipe__form">
+      <textarea class="recipe__notes" placeholder="Notes: Try substitutinng kale instead of spinach to get more crunch."></textarea>
+
+      <ul class="recipe__actions">
+        <li>Save</li>
+        <li>Pic</li>
+        <li>Copy</li>
+      </ul>
+
+      <label for="recipe__ingredient_0">Ingredients</label>
+      <ul class="recipe__ingredients">
+        <li class="recipe__ingredient">
+          <input id="recipe__ingredient_0" type="text" class="recipe__ingredient_qty recipe__ingredient_input" maxlength="3" value="0" />
+          <input type="text" class="recipe__ingredient_name recipe__ingredient_input">
+        </li>
+        <li class="recipe__ingredient recipe__ingredient--add">
+        <span class="recipe__ingredient_add_button">+</span>
+        </li>
+      </ul>
+
+      <br>
+      <label for="recipe__step_detail_0">Recipe</label>
+      <ol class="recipe__steps">
+        <li>
+          <input id="recipe__step_detail_0" type="text" class="recipe__step_detail" />
+        </li>
+        <li>
+           <input id="recipe__step_detail_0" type="text" class="recipe__step_detail" />
+        </li>
+
+
+<!-- Look into here to figure out if the boxes can be the entire height. http://red-team-design.com/css3-ordered-list-styles/ -->
+      </ol>
+
+
+
+
+    </form>
+
+
+  </div>
+
+
+</body>

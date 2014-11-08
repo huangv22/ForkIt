@@ -1,0 +1,152 @@
+@import "https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css";
+/* CSS declarations go here */
+
+html {
+  box-sizing: border-box;
+}
+
+body, * {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 14px;
+  font-family: Georgia, Times New Roman, Times Roman, serif;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+input[type="text"]{
+  margin: 0px;
+}
+
+
+.recipe {
+  width: 320px;
+
+}
+
+.recipe__name {
+  border-top: 1px solid #ccc;
+}
+
+.recipe__batch {
+  color: #999;
+  font-style: italic;
+}
+
+.recipe__ingredient {
+  border-top: 1px solid black;
+  background: #ccc;
+  width: 100%;
+}
+
+.recipe__ingredient_input {
+  padding: .5rem 0;
+  background: transparent;
+}
+
+
+
+.recipe__ingredient--add:hover {
+  cursor: pointer;
+
+}
+.recipe__ingredient_qty, .recipe__ingredient_add_button {
+  width: 10%;
+  text-align: center;
+  border: none;
+  border-right: 1px solid black;
+}
+
+.recipe__ingredient_add_button {
+  display:inline-block;
+  padding: .5rem 0 ;
+}
+
+input[type="text"].recipe__ingredient_name {
+  margin-left:-4px;
+  width: 90%;
+  border: none;
+}
+/*
+.recipe__step {
+  list-style-position: inside;
+}*/
+
+.recipe__steps {
+  background: #ccc;
+  width: 90%;
+}
+
+.recipe__step_detail {
+  padding: .5rem 0;
+  background: transparent;
+}
+
+input[type="text"].recipe__step_detail {
+  width: 100%;
+  border: none;
+}
+
+ol.recipe__steps {
+  list-style-type: none;
+  list-style-type: decimal !ie; /*IE 7- hack*/
+
+  margin: 0;
+  margin-top: .5em;
+  margin-left: 2em;
+  padding: 0em;
+/*  border: 1px solid red;*/
+
+  counter-reset: li-counter;
+/*  padding-left:30%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+*/
+}
+
+ol.recipe__steps > li{
+    position: relative;
+    margin-bottom: 0px;
+    padding-left: 0.2em;
+    min-height: 1.2em;
+    border-left: 1px solid black;
+/*    border:1px dashed purple; */
+}
+
+ol.recipe__steps > li:before {
+    position: absolute;
+    top: 0;
+    left: -2em;
+    width: 1.2em;
+    /*border: 1px dashed blue;*/
+
+    font-size: 1em;
+    line-height: 1;
+/*    font-weight: bold;
+*/    text-align: right;
+    color: #464646;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+
+
+/*.recipe__step_detail {
+  border: none;
+  border-left: 1px solid black;
+  width: 90%;
+*/
+}
+
+
+
