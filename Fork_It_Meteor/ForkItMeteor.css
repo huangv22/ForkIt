@@ -128,7 +128,7 @@ ol.recipe__steps > li:before {
     top: 0;
     left: -2em;
     width: 1.2em;
-    border: 1px dashed blue;
+    /*border: 1px dashed blue;*/
 
     font-size: 1em;
     line-height: 1;
